@@ -1,0 +1,20 @@
+\select@language {portuguese}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemplo dos espa\IeC {\c c}os de cores RGB E CMY.\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Exemplo do Modelo de Cor RGB. Horvath\cite {ImagensHSLHSVRGB} \relax }}{12}{figure.caption.9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Exemplo do Modelo de Cor HSV(a) e HSL(b). Horvath\cite {ImagensHSLHSVRGB}\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemplo do Modelo de Cor HPG. Mendes \cite {Mendes:2008}\relax }}{13}{figure.caption.13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o de Student(t) para valores de v. Spiegel \cite {Spiegel:1974}\relax }}{15}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Organiza\IeC {\c c}\IeC {\~a}o das pastas do projeto\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama de Classes do projeto\relax }}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de Fluxo\relax }}{20}{figure.caption.20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Janelas do Sistema: Janela 1 e Janela 2 \relax }}{23}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A sele\IeC {\c c}\IeC {\~a}o do ponto com a cor, \IeC {\'e} obtido pela intera\IeC {\c c}\IeC {\~a}o do usu\IeC {\'a}rio.\relax }}{24}{figure.caption.27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gr\IeC {\'a}fico gerado ap\IeC {\'o}s sele\IeC {\c c}\IeC {\~a}o dos pontos de cor.\relax }}{24}{figure.caption.28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gr\IeC {\'a}fico ap\IeC {\'o}s escolhas de m\IeC {\'\i }nimos e m\IeC {\'a}ximos.\relax }}{25}{figure.caption.29}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Arquivo com minimo e m\IeC {\'a}ximo dos valores HSV para cada cor.\relax }}{25}{figure.caption.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Threshold gerado apos sele\IeC {\c c}\IeC {\~a}o manual.\relax }}{26}{figure.caption.31}

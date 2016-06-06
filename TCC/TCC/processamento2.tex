@@ -1,0 +1,76 @@
+%====================================================================================================
+% ?????
+%====================================================================================================
+% TCC
+%----------------------------------------------------------------------------------------------------
+% Autor				: Jasane Schio
+% Orientador		: Gedson Faria
+% Co-Orientador		: Angelo Darcy
+% Instituição 		: UFMS - Universidade Federal do Mato Grosso do Sul
+% Departamento		: CPCX - Sistema de Informação
+%----------------------------------------------------------------------------------------------------
+% Data de criação	: 01 de Outubro de 2015
+%====================================================================================================
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=C++,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+\chapter{Metodologia e Desenvolvimento} \label{Cap:Processamento}
+
+
+Passos do projeto:
+\begin{itemize}
+	\item Aquisição de imagens em vídeo
+			\subitem Nesse passo as imagem são adquiridas via câmera USB.
+	\item Identificação de Objetos-Cores
+			\subitem Durante o processo de aquisição de imagem são selecionados os objetos-cores, quais serão como base para a detecção de máximos e mínimos de cores.
+	\item Calculo de Mínimos e Máximos
+		\subitem Nessa etapa são levados em consideração os objetos teste. A imagem é "varida"  por pixel na localidade dos objetos-teste e assim são salvos seus valores e feito a contagem de ocorrências de cada cor.		
+%	\item Aplicação de valos para seleção manual de minimo e máximo*
+
+\end{itemize}
+\section{Objetivo Especifico}
+\subsection{Aquisição da Imagem}
+%\begin{lstlisting}
+%// Hello.java
+%import javax.swing.JApplet;
+%import java.awt.Graphics;
+%
+%public class Hello extends JApplet {
+%public void paintComponent(Graphics g) {
+%g.drawString("Hello, world!", 65, 95);
+%}    
+%}
+%\end{lstlisting}
+\subsection{Seleção de Cores}
+\subsection{Definição de Mínimos e Máximos}
+
+
+%\subsection{Detecção de Objetos em Imagem Estática}
+%\subsection{Detecção de Objetos baseado em histograma de cores}	
+%\subsection{Detecção de Objetos em Tempo Real}
+%\subsection{Detecção de Objetos Dinâmicos em Tempo Real}
+\section{Objetivos Específicos} 
+\subsection{Implementação de Interface}
+\subsection{Calibração Inteligente}
+\newpage
+
+	
+\end{document}

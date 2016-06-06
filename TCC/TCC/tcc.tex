@@ -1,0 +1,116 @@
+%====================================================================================================
+% ?????
+%====================================================================================================
+% TCC
+%----------------------------------------------------------------------------------------------------
+% Autor				: Jasane Schio
+% Orientador		: Gedson Faria
+% Co-Orientador		: Angelo Darcy
+% Instituição 		: UFMS - Universidade Federal do Mato Grosso do Sul
+% Departamento		: CPCX - Sistema de Informação
+%----------------------------------------------------------------------------------------------------
+% Data de criação	: 01 de Outubro de 2015
+%====================================================================================================
+
+\documentclass[a4paper,12pt,brazil]{dct-class}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=25mm,bottom=25mm,left=25mm,right=20mm]{geometry}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\usepackage{abntex2cite}
+\usepackage{setspace}
+%\usepackage{caption}
+\usepackage[font=small]{caption}
+
+%\DeclareCaptionFormat{myformat}{#1#2#3\hrulefill}
+%\captionsetup{format=myformat}
+%\captionsetup[lstlisting]{position=bottom}
+%\captionsetup[lstinputlisting]{position=bottom,format=myformat}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{booktabs}	% http://ctan.org/pkg/booktabs
+\usepackage{array}		% http://ctan.org/pkg/array
+\newcolumntype{M}{>{\centering\arraybackslash}m{\dimexpr.25\linewidth-2\tabcolsep}}
+\usepackage{listings}
+\usepackage{color}
+
+\begin{document}
+
+\thispagestyle{empty}
+\include{cabecalho}
+%\include{resumo}
+%\include{abstract}
+%\include{agradecimentos}
+
+\tableofcontents
+
+%\printglossaries
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Lista de Figuras}
+\listoffigures
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Lista de Tabelas}
+%\listoftables
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Lista de Algoritmos}
+%\listofalgorithmes
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Lista de Quadros}
+%\lstlistoflistings
+
+% lista de abreviaturas e siglas
+% o parametro deve ser a abreviatura mais longa
+%\begin{listofabbrv}{SPMD}
+%	\item[CMM] Capability Maturity Model
+%	\item[SMP] Symmetric Multi-Processor
+%	\item[NUMA] Non-Uniform Memory Access
+%	\item[SIMD] Single Instruction Multiple Data
+%	\item[SPMD] Single Program Multiple Data
+%	\item[ABNT] Associação Brasileira de Normas Técnicas
+%\end{listofabbrv}
+
+%\pdfbookmark[0]{\lstlistlistingname}{lol}
+%\begin{KeepFromToc}
+%\lstlistoflistings
+%\end{KeepFromToc}
+%\cleardoublepage
+
+\include{introducao} % Introdução
+\include{fundamentacao} % Fundamentação
+%\include{processamento}
+\include{metodologia}
+%\include{cap1} % Outra
+\include{aplicativo} % Aplicação
+\include{resultados} % Resultados
+%\include{conclusao} % Conclusão
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Referências Bibliográficas}
+%\bibliographystyle{abnt}
+\bibliographystyle{abnt-num} % Numérico
+%\bibliographystyle{abnt-alf} % Autor-Data
+%\bibliographystyle{abbrv}
+%\bibliographystyle{apalike} 
+%\bibliographystyle{ieeetr} % Ordena por ordem de aparição.  
+%\bibliographystyle{abbr} % Ordena por ordem alfabetica com nomes abreviados.
+%\bibliographystyle{plain} % Ordena por ordem alfabetica com nomes por extenso.
+\bibliography{bibliografia.bib} % commented if *.bbl file included.
+
+
+\addcontentsline{toc}{chapter}{Ap\^endices}
+\appendix
+%\include{apendice}
+
+\end{document}
