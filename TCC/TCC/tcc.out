@@ -16,20 +16,13 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{T de Student}{section.2.4}% 16
 \BOOKMARK [2][-]{subsection.2.4.2}{Graus de Liberdade}{section.2.4}% 17
 \BOOKMARK [2][-]{subsection.2.4.3}{Intervalos de Confian\347a}{section.2.4}% 18
-\BOOKMARK [0][-]{chapter.3}{Metodologia e Desenvolvimento}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Projeto}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.1.1}{Organiza\347\343o do Projeto}{section.3.1}% 21
-\BOOKMARK [1][-]{section.3.2}{Fluxo do Sistema}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.2.1}{Etapa 1 - Inicializa\347\343o}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.2}{Etapa 2 - Abertura do Programa}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.3}{Etapa 3 - Calibra\347\343o}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.4}{Etapa 4 - Armazenamento}{section.3.2}% 26
-\BOOKMARK [0][-]{chapter.4}{Aplicativo}{}% 27
-\BOOKMARK [1][-]{section.4.1}{Tela Principal}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{Sele\347\343o do Objeto Colorido}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.3}{Gera\347\343o de Gr\341fico}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.4}{Sele\347\343o de Minimos e Maximos}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.5}{Arquivo Final}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Primeiros Resultados - Sele\347\343o Manual de M\355nimos e M\341ximos}{}% 33
-\BOOKMARK [0][-]{section*.32}{Refer\352ncias Bibliogr\341ficas}{}% 34
-\BOOKMARK [0][-]{Item.21}{Ap\352ndices}{}% 35
+\BOOKMARK [1][-]{section.2.5}{Trabalhos Relacionados}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.5.1}{Calibra}{section.2.5}% 20
+\BOOKMARK [0][-]{chapter.3}{Metodologia e Desenvolvimento}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Objetivo Especifico}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.1.1}{Aquisi\347\343o da Imagem}{section.3.1}% 23
+\BOOKMARK [2][-]{subsection.3.1.2}{Sele\347\343o de Cores}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.3}{Defini\347\343o de M\355nimos e M\341ximos}{section.3.1}% 25
+\BOOKMARK [1][-]{section.3.2}{Objetivos Espec\355ficos}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Implementa\347\343o de Interface}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Calibra\347\343o Inteligente}{section.3.2}% 28

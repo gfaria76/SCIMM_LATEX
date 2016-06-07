@@ -1,49 +1,26 @@
 \select@language {portuguese}
-\contentsline {chapter}{Lista de Figuras}{5}{section*.3}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Justificativa}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objetivos}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\IeC {\'\i }ficos}{7}{subsection.1.2.2}
-\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}????}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Detec\IeC {\c c}\IeC {\~a}o de Objetos}{8}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Detec\IeC {\c c}\IeC {\~a}o de Bordas}{9}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Espa\IeC {\c c}o e Modelo de Cores}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Espa\IeC {\c c}os de Cores}{10}{subsection.2.2.1}
-\contentsline {subsubsection}{RGB}{11}{section*.5}
-\contentsline {subsubsection}{CMY}{11}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}Modelo de Cores}{11}{subsection.2.2.2}
-\contentsline {subsubsection}{RGB}{12}{section*.8}
-\contentsline {subsubsection}{HSL, HSB/HSV}{12}{section*.10}
-\contentsline {subsubsection}{HPG}{12}{section*.12}
-\contentsline {section}{\numberline {2.3}Linguagem de Programa\IeC {\c c}\IeC {\~a}o e Bibliotecas}{14}{section.2.3}
-\contentsline {section}{\numberline {2.4}Probabilidade e Estat\IeC {\'\i }stica}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}T de Student}{14}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Graus de Liberdade}{15}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Intervalos de Confian\IeC {\c c}a}{15}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Metodologia e Desenvolvimento}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Projeto}{16}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Organiza\IeC {\c c}\IeC {\~a}o do Projeto}{16}{subsection.3.1.1}
-\contentsline {subsubsection}{Main}{18}{section*.17}
-\contentsline {subsubsection}{MainWindow}{18}{section*.18}
-\contentsline {subsubsection}{CorCalibrada}{19}{section*.19}
-\contentsline {section}{\numberline {3.2}Fluxo do Sistema}{20}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Etapa 1 - Inicializa\IeC {\c c}\IeC {\~a}o}{21}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Etapa 2 - Abertura do Programa}{21}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Etapa 3 - Calibra\IeC {\c c}\IeC {\~a}o}{21}{subsection.3.2.3}
-\contentsline {subsubsection}{Escolha da Cor}{21}{section*.21}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{21}{section*.22}
-\contentsline {subsubsection}{Ocorr\IeC {\^e}ncia HSV}{22}{section*.23}
-\contentsline {subsubsection}{Gerar Gr\IeC {\'a}fico}{22}{section*.24}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{22}{section*.25}
-\contentsline {subsection}{\numberline {3.2.4}Etapa 4 - Armazenamento}{22}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Aplicativo}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tela Principal}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}fico}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{25}{section.4.4}
-\contentsline {section}{\numberline {4.5}Arquivo Final}{25}{section.4.5}
-\contentsline {chapter}{\numberline {5}Primeiros Resultados - Sele\IeC {\c c}\IeC {\~a}o Manual de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{26}{chapter.5}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{27}{section*.32}
-\contentsline {chapter}{Ap\^endices}{28}{Item.21}
+\contentsline {chapter}{Lista de Figuras}{4}{section*.3}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Justificativa}{6}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\IeC {\'\i }ficos}{6}{subsection.1.2.2}
+\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}????}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detec\IeC {\c c}\IeC {\~a}o de Objetos}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Detec\IeC {\c c}\IeC {\~a}o de Bordas}{8}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Espa\IeC {\c c}o e Modelo de Cores}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Espa\IeC {\c c}os de Cores}{9}{subsection.2.2.1}
+\contentsline {subsubsection}{RGB}{10}{section*.5}
+\contentsline {subsubsection}{CMY}{10}{section*.6}
+\contentsline {subsection}{\numberline {2.2.2}Modelo de Cores}{10}{subsection.2.2.2}
+\contentsline {subsubsection}{RGB}{11}{section*.8}
+\contentsline {subsubsection}{HSL, HSB/HSV}{11}{section*.10}
+\contentsline {subsubsection}{HPG}{11}{section*.12}
+\contentsline {section}{\numberline {2.3}Linguagem de Programa\IeC {\c c}\IeC {\~a}o e Bibliotecas}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}Probabilidade e Estat\IeC {\'\i }stica}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}T de Student}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Graus de Liberdade}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Intervalos de Confian\IeC {\c c}a}{14}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Trabalhos Relacionados}{15}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Calibra}{15}{subsection.2.5.1}
