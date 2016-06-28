@@ -18,7 +18,7 @@
 %\section{Estado da Arte} \label{Sec:EstadoDaArte}
 %Como estado da arte foram relacionados os métodos de detecção de objetos em imagens em tempo real e estáticas.
 
-\section{????}
+\section{Processamento de Imagens}
 \subsection{Detecção de Objetos}
 \label{Sec:TiposDeDeteccaoDeObjetos}
 Antes de descrever os métodos de classificação devemos fazer algumas definições:
@@ -177,8 +177,54 @@ Os limites do Intervalo de Confiança para médias, pode ser representado por:
 \bar{X}  \pm \mathit{t}_{\mathit{c}}\frac{\mathit{s}}{{\sqrt{N-1}}}
 \end{displaymath}
 onde os valores, dos limites iniciai e final, \textit{t$_c$} são denominados \textit{críticos} ou \textit{coeficiente de confiança} e dependem do nível de confiança desejado e do tamanho da amostra. Valores retirados da Tabela T, neste trabalho foi usada para referencia a Tabela T da Universidade Federal Fluminense\cite{TabelaUFF}. Para os propósitos finais foi escolhido um nível de confiança de 95%.
-
+\section{Futebol de Robôs}
+ Visto como um dominio bastente complexo, dinamico e imprevisivel\cite{Costa:2000}, o futebol de robos surgiu como uma tentativa de promover pesquisas nos campos de Inteligencia Artificial e robotica, pela avaliacao teorias, algoritmos e arquiteturas atraves problemas padrao\cite{Kitano:1997}.
+ A Equipe Cedro se enquadra na categoria IEEE Very Small Size. Esta categoria é regulamentada pelo Instituto de Engenheiros Eletricistas e Eletrônicos (IEEE) e possui regras baseadas na MiroSot\cite{Rosa:2015}. O futebol de robos se assemelha ao futebol humano onde o objetivo do jogo é fazer gols para vencer a partida, porem tendo regras adaptadas para o "ambito" robotico. 
+ Rosa\cite{Rosa:2015} em seu trabalho de graduação faz uma boa enumeração das regras básicas:
+ \begin{itemize}
+ \item A partida dura 10 minutos com dois tempos de 5 minutos;
+  \item Há um intervalo de 10 minutos entre um tempo e outro;
+   \item Cada time tem direito a dois tempos de 2 minutos que podem ser pedidos a qualquer
+   momento;
+    \item Caso a diferença de gols entre os dois times chegue a 10 a partida é encerrada;
+     \item Uma falta ocorre quando há mais de um robô de um mesmo time dentro de sua própria
+     área de gol ou quando um robô empurrar outro robô de outro time;
+     \item Um pênalti ocorre quando a bola fica mais de 10 segundos dentro de alguma das áreas;
+     \item Um chute-livre ocorre quando os robôs ficam travados por mais de 10 segundos, caso
+     ocorra, o juiz posiciona a bola na marca de chute-livre mais próxima de onde ela ficou
+     parada e posiciona os robôs de cada time equidistantes a bola;
+     \item A cada inicio de partida ou gol feito a bola deve ser posicionada no centro do campo e os
+     robôs devem ser posicionados de acordo com a posse de bola.
+ \end{itemize}
 \section{Trabalhos Relacionados}
 Para o tema especifico deste trabalho, calibração de intervalo de cores para times de futebol de robos da categoria very small size, não foram encontrados trabalhos relacionados, porém foram encotrados Team Discription Papers e descrições de sistemas usados pelos times, onde consta sobre o processo de calibração e os metodos usados.
 
 \subsection{Calibra}
+O Centro Universitário da FEI, como visto em\cite{PenharbelTime}, utiliza em sua equipe Y04 utiliza um sistema, desenvolvido denominado CALIBRA\cite{Penharbel:2004}.Desenvolvido para sistemas Linux e com Graphical User Interface\cite{Penharbel:2004}, o sistema de calibração possui um modulo chamado de MainWindow, que é responsavel pela configuracao de brilho, cor e contraste da imagem adquirida pela camera e gera um arquivo que é analizado na hora da criacao das cores padrao\cite{PenharbelTime}, onde cores-padrão são definidas como intervalos no espaço de cores HSI\cite{PenharbelTime}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{calibra.pdf}
+	\caption{Sistema Calibra desenvolvido pelo Centro Universitário da FEI \cite{Penharbel:2004}}
+	\label{Calibra}
+\end{figure}
+
+\subsection{VSS-Vision}
+Desenvolvido inicialmente em Janeiro de 2016 pelo Laboratório de Sistemas Inteligentes de Robótica (SIRLab), utilizando para procesamento de imagens a biblioteca OpenCV e para telas interativas a biblioteca  ImGui.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{vssvision.pdf} 	
+	\caption{Sistema de calibracao desenvolvido peloSIRLab \cite{Rosa:2015}}
+	\label{SIRLabCalibracao}
+\end{figure}
+A rotina de calibração do VSS-Vision calibra laranja, amarelo e azul obrigatoriamente e as outra cores referentes aos jogadores em campo\cite{Rosa:2015} de acordo com a escolha do time. A imagem é divida em nove cantos, como visto na imagem 2.7, e para calibrar a cor o usuario deve clicar em cima da cor que gostaria de ser calibrada salvando um intervalo de cor tratado como RGB máximo daquela cor e o mínimo, a medida
+que vão havendo os cliques o sistema verifica para cada atributo se ele é maior que o atributo
+máximo salvo ou menor que mínimo salvo, caso seja, o mesmo assume o lugar de menor ou
+maior\cite{Rosa:2015} e esse processo deve ser feito em cada um dos nove cantos da imagem. Os valores HSV encontrados sao ajustados manualmente com a ajuda de sliders, como visto na imagem 2.8.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{calibration.pdf} 	
+	\caption{Sistema de calibracao desenvolvido peloSIRLab \cite{VSSVision}}
+	\label{SIRLabCalibracaoHSV}
+\end{figure}
