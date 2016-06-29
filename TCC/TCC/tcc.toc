@@ -29,25 +29,16 @@
 \contentsline {chapter}{\numberline {3}Metodologia e Desenvolvimento}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Projeto}{19}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Organiza\IeC {\c c}\IeC {\~a}o do Projeto}{19}{subsection.3.1.1}
-\contentsline {subsubsection}{Main}{21}{section*.20}
-\contentsline {subsubsection}{MainWindow}{21}{section*.21}
-\contentsline {subsubsection}{CorCalibrada}{22}{section*.22}
-\contentsline {section}{\numberline {3.2}Fluxo do Sistema}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Etapa 1 - Inicializa\IeC {\c c}\IeC {\~a}o}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Etapa 2 - Abertura do Programa}{24}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Etapa 3 - Calibra\IeC {\c c}\IeC {\~a}o}{24}{subsection.3.2.3}
-\contentsline {subsubsection}{Escolha da Cor}{24}{section*.24}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{24}{section*.25}
-\contentsline {subsubsection}{Ocorr\IeC {\^e}ncia HSV}{25}{section*.26}
-\contentsline {subsubsection}{Gerar Gr\IeC {\'a}fico}{25}{section*.27}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{25}{section*.28}
-\contentsline {subsection}{\numberline {3.2.4}Etapa 4 - Armazenamento}{25}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Aplicativo}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tela Principal}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}fico}{27}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Arquivo Final}{28}{section.4.5}
-\contentsline {chapter}{\numberline {5}Primeiros Resultados - Sele\IeC {\c c}\IeC {\~a}o Manual de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{29}{chapter.5}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{30}{section*.35}
-\contentsline {chapter}{Ap\^endices}{31}{Item.28}
+\contentsline {subsection}{\numberline {3.1.2}Classes}{21}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Fluxo do Sistema}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Manual}{22}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Automatica}{22}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Aplicativo}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tela Principal}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{24}{section.4.2}
+\contentsline {section}{\numberline {4.3}Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}fico}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{25}{section.4.4}
+\contentsline {section}{\numberline {4.5}Arquivo Final}{25}{section.4.5}
+\contentsline {chapter}{\numberline {5}Primeiros Resultados - Sele\IeC {\c c}\IeC {\~a}o Manual de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{26}{chapter.5}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{27}{section*.28}
+\contentsline {chapter}{Ap\^endices}{28}{Item.29}

@@ -54,122 +54,65 @@
 
 	\section{Projeto}
 	\subsection{Organização do Projeto}
-	 O projeto está sendo sendo desenvolvido na IDE QT Creator e está separada em três pastas. Na pasta Headers estão os arquivos de cabeçalho(.h) onde estão as declarações dos métodos e variáveis usados nas classes  executáveis. Já na pasta Sources estão os arquivos fonte(.cpp), são nesses arquivos que os métodos declarados nos arquivos da pasta Header são implementados. Na pasta Forms está o arquivo de interface gráfica(.ui) usada no projeto.
+	 O projeto foi desenvolvido seguindo o paradigma de programação conhecido como  Orientação à Objetos, esse paradigma baseia-se na utilizaç~ao de objetos individuais para criaçao de um sistema maior e complexo. A IDE usada para o desenvolvimento foi a QT Creator. Esta separada o projeto em três pastas, Headers, Sources e Forms. Na pasta Headers estão os arquivos de cabeçalho(.h) onde estão as declarações dos métodos e variáveis usados nas classes  executáveis. Já na pasta Sources estão os arquivos fonte(.cpp), são nesses arquivos que os métodos declarados nos arquivos da pasta Header são implementados. Na pasta Forms está o arquivo de interface gráfica(.ui) que é usado no projeto para ser a ponte entre o usuario e as funções do sistema.
 	 
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.4\textwidth]{organizacaoProjeto.pdf}
+		\includegraphics[width=0.2\textwidth]{organizacaoProjeto.pdf}
 		\caption{Organização das pastas do projeto}
 		\label{Organizacao do Projeto}
 	\end{figure}
-	 A seguir mostrarei o Diagrama de Classes e explicarei os métodos que fazem parte das classes.
+	Cada arquivo de cabeçalho possui um arquivo fonte correspondente, formando assim uma Classe, com exceção do arquivo fonte main, pois para este arquivo não há a necessidade.
+	As classes desenvolvidas no projeto são:
+ calibracao, manual, automatica, corcalibrada, janelaprincipal e tdestudent. Já a classe qcustomplot é um componente para auxilio em plotagem de gráficos e vizualização de dados\cite{QCustomPlot}.
+Para melhor entendimento da interação entre as classes a figura 3.2 trás o diagrama de classes do projeto.
 	 \begin{figure}[!h]
 	 	\centering
-	 	\includegraphics[width=0.5\textwidth]{diagramadeclasse.pdf}
+	 	\includegraphics[width=0.8\textwidth]{diagramadeclasse.pdf}
 	 	\caption{Diagrama de Classes do projeto}
-	 	\label{Diagrama De Classe}
+	 	\label{DiagramaDeClasse}
 	 \end{figure}\newpage
 
 
-	\subsubsection{Main}
-	Classe principal onde ocorre aquisição de imagem, seleção de cores, contagem de ocorrência HSV, entre outros.
-	
-	
+\subsection{Classes}
 	\begin{description}
-	\item [void SalvarArquivo()]
-		Método sem retorno nem parâmetros, é neste método que o arquivo cores.arff é gravado com os valores da calibração.
-	\item [void CalcularHSV(cv::Point ini, cv::Point fim)]
-	Método sem retorno que recebe o ponto inicial e final da seleção da cor. Dentro desse método a imagem é convertida para o modelo de cores HSV e então são feitas as contagens de ocorrência dos valores HSV em cada pixel e adicionado ao seu vetor correspondente.
-	\item [void mouseHandler(int event, int x, int y, int flags, void *param)]
-	Método sem retorno com parâmetros de movimentação do mouse. Esse método segue o modelo especificado pela biblioteca OpenCV. Este método é onde são manipuladas as entradas do usuário via mouse. É onde são identificados a seleção do ponto inicial, feito então uma borda ao redor da seleção, e identificada o ponto final da seleção da cor. É nesse método que é chamado o método CalcularHSV.
-	\item  [void DeclararMatrizes()]
-	Método sem retorno e sem parâmetros. Neste método os vetores de H, S e V são limpos para então ser feita a calibração de uma outra cor.
-	\item [void Calibracao(int argc, char **argv)]
-	Método sem retorno que possui como parâmetros argc, que é um inteiro que que possui o total do número de argumentos que a classe foi executada na linha de comando, e argv que são os parâmetros usados na execução do programa na linha de comando, que serão usados para a execução da interface gráfica. Neste método são inicializados a câmera e a interface gráfica, e assim inicializando o processo de calibração e até que a mesma seja finalizada seja finalizada. 
-	\item [void ThresholdImagem()]
-	Método sem retorno e sem parâmetros onde é mostrado o resultado da calibração. Nele são levados em consideração os mínimos e máximos de cada cor e então feito um Threshold, um método onde são separados os grupos de cinza que formam os objetos da imagem e assim separar somente os objetos desejados.
-	\item [int main(int argc, char **argv)]
-	Método sem retorno que possui como parâmetros argc, que é um inteiro que que possui o total do número de argumentos que a classe foi executada na linha de comando, e argv que são os parâmetros usados na execução do programa na linha de comando. Neste método é invocado o método Calibração e após a finalização deste método é invocado o método ThresholdImagem(), para mostrar o resultado final.
-	\end{description}
-	\subsubsection{MainWindow}
-	Interface gráfica onde são mostrados ao usuário as ocorrências de cada cor e obtidas as interações com o usuário por meio de seleção dos mínimos e máximos de cada um dos valores de HSV.  
-	\begin{description}
-		\item [void SetHSV(int h[256] , int s[256], int v[256])] Método chamado pela Main para passar os valores de ocorrência de HSV para a interface gráfica.
-		\item[ void Plot(int h[256] , int s[256], int v[256])]
-		 O método Plot é chamado pelo meto SetHSV e faz a inicialização dos gráficos de valores e sua exibição.
-		\item [void RePlot(int a[256])]
-		 Apos seleção via Slider ou Entrada de texto, o método RePlot atualiza a exibição do gráfico em questão.
-		\item [void TabChangedTo(int index)]
-		 Método que lida com a mudança das abas do gráfico.
-		\item [void ComboChanged(int index)]
-		 Método que lida com a mudança da cor para calibração no ComboBox.
-		\item [void IniciarCalibracao()]
-		Método que inicia a calibração.
-		\item [void SalvarCalibracao()]
-		Método que salva a calibração da cor atual.
-		\item [void FinalizarCalibracao()]
-		Método que finaliza a calibração.		
-		\item [void setMaxTextInt(int value)]
-		 Método que lida com alteração do valor Máximo na área de texto e atualiza tanto o gráfico quando o Slider.
-		\item [void setMaxSliderValue()]
-		 Método que lida com alteração do valor Máximo no Slider e atualiza tanto o gráfico quando a área de texto.
-		\item [void setMinTextInt(int value)]
-		 Método que lida com alteração do valor Minimo na área de texto e atualiza tanto o gráfico quando o Slider.
-		\item [void setMinSliderValue()]
-		  Método que lida com alteração do valor Minimo no Slider e atualiza tanto o gráfico quando a área de texto.
+
+	\item [main] esta é a classe executavel do sistema, ela inicia o programa e em seguida chama a classe de interação grafica \textbf{janelaprincipal}  
+	
+	\item [janelaprincipal]	classe que faz a interação com o usuario e que de acorco com esta interação seleciona o tipo de calibração, e seus parametros, para então ser feita a analize dos pixeis	
+		
+	\item [calibracao] classe "pai" que contem os metodos e variaveis que virão a ser usadas por ambas as classes \textbf{manual} e \textbf{automatica}
+	
+	\item [manual] classe que contem os metodos, calculos e variaveis necessarias para a calibração manual
+	
+	\item [automatica] classe que contem os metodos, calculos e variaveis necessarias para a calibração automatica
+			
+	\item [corcalibrada] classe que salva o indice da cor já calibrada e seu intervalo de valores
+	
+	\item [tdestudent] esta é a classe que faz o calculo probabilistico conhecido com TdeStudent
+	
 
 	\end{description}
-	\subsubsection{CorCalibrada}
-	Classe Objeto que guarda valores mínimos e máximos.
-	\newpage
+
+	
 
 	\section{Fluxo do Sistema}
-	O sistema pode ser basicamente divido em 4 etapas. Inicialização, Abertura do Programa, Calibração e Armazenamento. Para um melhor intendimento da execução do programa, seguem abaixo o diagrama de fluxo. 
+O sistema possui um fluxo principal e dois subfluxos de acordo com o tipo de calibração escolhida. A Figura 3.3 mostra o fluxo principal do sistema.
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.45\textwidth]{DiagramaDeFluxo.pdf}
+			\includegraphics[width=0.45\textwidth]{fluxoprincipal.pdf}
 			\caption{Diagrama de Fluxo}
 			\label{FlowCHart}
 		\end{figure}
 		
-	\subsection{Etapa 1 - Inicialização}	
+	\subsection{Fluxo de Calibração Manual}	
 	Nesta etapa são declaradas todas as variáveis necessárias para execução do sistema, tanto da interface gráfica quanto da parte de processamento da imagem. Também é nesta etapa que se verifica a câmera esta disponível ou não. Caso a câmera não esteja disponível o sistema não é inicializado.
 	
-	
-	\subsection{Etapa 2 - Abertura do Programa}		
+		\begin{figure}[!h]
+				\centering
+				\includegraphics[width=0.45\textwidth]{fluxomanual.pdf}
+				\caption{Diagrama de Fluxo Manual}
+				\label{DiagramaDeFluxoManual}
+			\end{figure}
+	\subsection{Fluxo de Calibração Automatica}		
 		Após ter sido inicializado com sucesso o programa dispõe sua interface gráfica que é separada entre 2 janelas, a Janela 1, Gráfico, e a Janela 2, Seleção de Cores, detalhadas no Capítulo 4, sendo então possível iniciar o processo de calibração. 
-
-\subsection{Etapa 3 - Calibração}		
-			Esta etapa é onde ocorre a maior parte do sistema. O processo de calibração ocorre em um laço finito, até que esteja completa a calibração das cores desejadas e está subdividida em: Escolha da Cor, Seleção do Objeto Colorido, Contagem de Ocorrência HSV, Gerar Gráfico, Seleção de Mínimos e Máximos.
-			
-\subsubsection{Escolha da Cor}
-			 Na Janela 1, utilizando o método de entrada disposto é escolhida a cor à ser calibrada. No momento estão disponíveis para calibração as cores: Amarelo, Azul, Ciano, Laranja, Verde, Vermelho, Rosa e Roxo, e seus índices de 0 a 7, correspondentemente. 
-	\subsubsection{Seleção do Objeto Colorido}
-	Apos a cor escolhida é então necessário que se selecione o ponto que obtenha a mesma na Janela 2. Essa seleção é feita usando pontos inicial e final que sera obtido quando o mouse é clicado na posição inicial e arrastado até a posição final. Apos selecionada a cor é então chamado o método que faz a contagem da ocorrência dos valores HSV em cada pixel.
-
-	\newpage
-	\subsubsection{Ocorrência HSV}
-	O primeiro passo da calibração é a varredura do(s) ponto(s) selecionado(s) pelo usuário, encontrando os valores HSV de cada pixel, e esses adicionados ao vetor de ocorrência. 
-	Quando o método é chamado são passados por referencia os pontos inicial e final da varredura, o frame da imagem é convertido para HSV e então feito sua ocorrência. 
-
-		\begin{lstlisting}
-		// Método de varredura de pixel e ocorrencia de HSV
-		cv::cvtColor(frame, hsv, CV_RGB2HSV);
-		for (int y = ini.y; y < fim.y; ++y) {
-			for (int x = ini.x; x < fim.x; x++) {
-			pixel = hsv.at<cv::Vec3b>(y, x); 
-			H[pixel.val[0]]++;
-			S[pixel.val[1]]++;
-			V[pixel.val[2]]++;
-				} 
-		}	\end{lstlisting}
-	\subsubsection{Gerar Gráfico}
-	Após a seleção da cor, o usuário escolhe calibrar a cor, a geração dos valores só é feita quando o usuário apertar o botão "Calibrar", pois pode ser que a cor a ser calibrada esteja em mais de um ponto da imagem.
-	Quando os pontos com cor são selecionados um gráfico dos valores de H, S e V são gerados e mostrados para usuário. 
-	\subsubsection{Seleção de Mínimos e Máximos}
-	Mínimos e Máximos são selecionados com interação do usuário. Após salvos são armazenados em variais dentro do programa. Quando toda a calibração é terminada o programa finaliza o laço de repetição do processo.
-\subsection{Etapa 4 - Armazenamento}
-Nesta etapa é onde é gerado e armazenado em disco o arquivo cores.arff onde os valores cada cor estão separados em duas linhas, a primeira linha contem os valores mínimos e a segunda os máximos.
-	\newpage
-	
-	

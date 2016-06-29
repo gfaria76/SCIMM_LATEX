@@ -23,17 +23,16 @@
 \BOOKMARK [0][-]{chapter.3}{Metodologia e Desenvolvimento}{}% 23
 \BOOKMARK [1][-]{section.3.1}{Projeto}{chapter.3}% 24
 \BOOKMARK [2][-]{subsection.3.1.1}{Organiza\347\343o do Projeto}{section.3.1}% 25
-\BOOKMARK [1][-]{section.3.2}{Fluxo do Sistema}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.2.1}{Etapa 1 - Inicializa\347\343o}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.2}{Etapa 2 - Abertura do Programa}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.3}{Etapa 3 - Calibra\347\343o}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.4}{Etapa 4 - Armazenamento}{section.3.2}% 30
-\BOOKMARK [0][-]{chapter.4}{Aplicativo}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Tela Principal}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.2}{Sele\347\343o do Objeto Colorido}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{Gera\347\343o de Gr\341fico}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.4}{Sele\347\343o de Minimos e Maximos}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.5}{Arquivo Final}{chapter.4}% 36
-\BOOKMARK [0][-]{chapter.5}{Primeiros Resultados - Sele\347\343o Manual de M\355nimos e M\341ximos}{}% 37
-\BOOKMARK [0][-]{section*.35}{Refer\352ncias Bibliogr\341ficas}{}% 38
-\BOOKMARK [0][-]{Item.28}{Ap\352ndices}{}% 39
+\BOOKMARK [2][-]{subsection.3.1.2}{Classes}{section.3.1}% 26
+\BOOKMARK [1][-]{section.3.2}{Fluxo do Sistema}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.2.1}{Fluxo de Calibra\347\343o Manual}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.2}{Fluxo de Calibra\347\343o Automatica}{section.3.2}% 29
+\BOOKMARK [0][-]{chapter.4}{Aplicativo}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Tela Principal}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Sele\347\343o do Objeto Colorido}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{Gera\347\343o de Gr\341fico}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{Sele\347\343o de Minimos e Maximos}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Arquivo Final}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Primeiros Resultados - Sele\347\343o Manual de M\355nimos e M\341ximos}{}% 36
+\BOOKMARK [0][-]{section*.28}{Refer\352ncias Bibliogr\341ficas}{}% 37
+\BOOKMARK [0][-]{Item.29}{Ap\352ndices}{}% 38
