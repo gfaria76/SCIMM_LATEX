@@ -33,12 +33,14 @@
 \contentsline {section}{\numberline {3.2}Fluxo do Sistema}{21}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Manual}{22}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Automatica}{22}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Aplicativo}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tela Principal}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}fico}{24}{section.4.3}
-\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{25}{section.4.4}
-\contentsline {section}{\numberline {4.5}Arquivo Final}{25}{section.4.5}
-\contentsline {chapter}{\numberline {5}Primeiros Resultados - Sele\IeC {\c c}\IeC {\~a}o Manual de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{26}{chapter.5}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{27}{section*.28}
-\contentsline {chapter}{Ap\^endices}{28}{Item.29}
+\contentsline {subsubsection}{Configura\IeC {\c c}\IeC {\~a}o de Camera}{24}{section*.23}
+\contentsline {subsubsection}{Detec\IeC {\c c}\IeC {\~a}o e valida\IeC {\c c}\IeC {\~a}o de Objetos}{25}{section*.24}
+\contentsline {chapter}{\numberline {4}Aplicativo}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tela Principal}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sele\IeC {\c c}\IeC {\~a}o do Objeto Colorido}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}Gera\IeC {\c c}\IeC {\~a}o de Gr\IeC {\'a}fico}{27}{section.4.3}
+\contentsline {section}{\numberline {4.4}Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{28}{section.4.4}
+\contentsline {section}{\numberline {4.5}Arquivo Final}{28}{section.4.5}
+\contentsline {chapter}{\numberline {5}Primeiros Resultados - Sele\IeC {\c c}\IeC {\~a}o Manual de M\IeC {\'\i }nimos e M\IeC {\'a}ximos}{29}{chapter.5}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{30}{section*.31}
+\contentsline {chapter}{Ap\^endices}{31}{Item.30}

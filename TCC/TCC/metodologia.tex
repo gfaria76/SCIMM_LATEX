@@ -103,16 +103,61 @@ O sistema possui um fluxo principal e dois subfluxos de acordo com o tipo de cal
 			\includegraphics[width=0.45\textwidth]{fluxoprincipal.pdf}
 			\caption{Diagrama de Fluxo}
 			\label{FlowCHart}
-		\end{figure}
+		\end{figure} 
+		
+		 O fluxo principal do sistema consiste na apresentação da \textbf{interface grafica} ao usuario. A \textbf{interface grafica} por sua vez oferece as duas possibilidades de calibração: Calibração Manual e Calibração Automatica. De acordo com o tipo de calibração escolhido o sistema inicia um subfluxo. Apos a execução de todo subfluxo o sistema é finalizada.
 		
 	\subsection{Fluxo de Calibração Manual}	
-	Nesta etapa são declaradas todas as variáveis necessárias para execução do sistema, tanto da interface gráfica quanto da parte de processamento da imagem. Também é nesta etapa que se verifica a câmera esta disponível ou não. Caso a câmera não esteja disponível o sistema não é inicializado.
-	
+ 	O fluxo de calibração manual é iniciado somente se a camera estiver disponivel. Após a camera ser inicializada(1) o sistema espera pela seleção do objeto(2) o qual tera seus pixeis calculados para gerar os valores HSV. Com o objeto selecionado o usuario escolhe entao a cor(4), na opção de escolha de cor, e calibrar. A area selecionada é então analizada e os valores de cada pixel calculados analizando seu HSV(3).
+ 	O usuario então seleciona os valores que considera satisfatorios(5). Enquanto houverem objetos a serem calibrados(6) o sistema repete esta mesma rotina, quando todos os objetos já tiverem sido calibrados, um arquivo com os valores é gerado(7) e o usuario finaliza o sistema.
 		\begin{figure}[!h]
 				\centering
 				\includegraphics[width=0.45\textwidth]{fluxomanual.pdf}
 				\caption{Diagrama de Fluxo Manual}
 				\label{DiagramaDeFluxoManual}
 			\end{figure}
-	\subsection{Fluxo de Calibração Automatica}		
-		Após ter sido inicializado com sucesso o programa dispõe sua interface gráfica que é separada entre 2 janelas, a Janela 1, Gráfico, e a Janela 2, Seleção de Cores, detalhadas no Capítulo 4, sendo então possível iniciar o processo de calibração. 
+	\subsection{Fluxo de Calibração Automatica}	
+	O fluxo de calibração automatica possui o minimo possivel de interação com o usuario. Neste fluxo o sistema faz automaticamente a detecção de objetos e utilizando a probabilidade matematica conhecida com T de Student verifica o tamanho de cada objeto encontrado para gerar um limite considerado o tamanho que os objetos que devem ser encontrados terão, nesse caso as etiquetas de cores dos robos e só então analizar os valores e calcular os valores minimos e maximos de HSV automaticamente.	
+	O fluxo inicia somente caso a camera esteja disponivel(1), apos a sua inicialização é feita a configuração da camera(2), enquadramento do tamanho correto e correção de brilho e luminosidade. Uma vez que a camera está configurada o sistema inicia a deteção de objetos e a validação dos objetos(3) que estão no tamanho correto. Apos deixar somente os objetos corretos no sistema, os pixeis de cada um são varridos e seu intervalo HSV encontrado(4). Os objetos e cores encontrados ficam disponiveis para o usuario apra esse fazer a assimilação entre os objetos e as cores corretas(5), após intervalos corretos já tiverem sido calibrados, um arquivo com os valores é gerado(6) e o usuario finaliza o sistema.
+		\begin{figure}[!h]
+				\centering
+				\includegraphics[width=0.45\textwidth]{fluxoautomatico.pdf}
+				\caption{Diagrama de Fluxo Automatico}
+				\label{DiagramaDeFluxoAutomatico}
+			\end{figure} 
+			
+		Nas sessões à seguir explicarei detalhadamente cada processo da calibração automatica
+	\subsubsection{Configuração de Camera}
+Antes de ser feito o processo de calibração são necessarias duas configurações: Constrate e Brilho e o Recorte de Imagem.
+A configuraça~o de contraste e brilho utiliza o metodo \textit{convertTo} da biblioteca \textit{OpenCV} e é utilizada para o melhoramento da imagem antes da detecção dos objetos, a utilização completa fica da seguinte maneira:
+\begin{center}
+\centering \textit{ frameA.convertTo(frameA, -1, contrast\_value / 50.0, brightness\_value)}
+\end{center}
+a função recebe quatro parametros: \textbf{frameA} que informa aonde sera salvo o resultado da conversão, \textbf{-1} que indica o tipo da matrix, ou numero de canais, da imagem a ser gerada, usa-se -1 quando se deseja que se use os valores semelhantes aos da imagem da imagem original\cite{OpenCV}, \textbf{contrast\_value / 50.0} indica o valor de constraste, ou alpha, a ser usado para multiplicar os valores do pixel da imagem\cite{OpenCV} e \textbf{brightness\_value} é o valor do brilho, ou beta, a ser adicionado à imagem. \newline
+Outra configuração feita é o Recorte de Imagem, onde utilizando a função setMouseCallback para possibilitar a interção do usuario na imagem por meio do mouse, sua utilização é dada da seguinte maneira:
+\begin{center}
+\centering \textit{ cv::setMouseCallback(src\_window,mouseHandler,0);}
+\end{center}
+onde \textbf{src\_windows} indica a janela na qual a função recebera a interação,  \textbf{mouseHandler} indica a função na qual esta implementada a interação e \textbf{0} indica parametros opcionais, neste caso não usaremos nenhum então foi usado o numero 0.
+Dentro da função \textbf{mouseHandler} são identificados os pontos iniciai e final da seleção na tela e utilizada a função \textit{rectangle} para demarcar a seleção na tela. A utilização da função \textit{rectangle} completa fica da seguinte maneira:
+\begin{center}
+\centering \textit{ cv::rectangle(frameA, point1, point2, CV\_RGB(255, 0, 0), 2, 5, 0);}
+\end{center}
+a função rebece os parametros \textbf{frameA} indica a imagem na qual será demarcada a area selecionada, \textbf{point1} que é o ponto incial de seleção na imagem, \textbf{point2} que é o ponto final da seleção. \textbf{CV\_RGB(255, 0, 0)} que indica a cor da demarcaç~ao, \textbf{2} indicando a expessura da demarcação, \textbf{5} que significa o tipo de linha a ser utilizado na demarcação e \textbf{0} que é o numero de bits fracinarios.
+ Após confirmada a escolha do tamanho da tela 
+este é então salvo na variavel nomeada \textit{tamanho}, está então sera usado durante todo o processo de calibração.
+\newpage
+\subsubsection{Detecção e validação de Objetos}
+A detecção dos objetos a serem calibrados é dada pelo algoritmo de detecção de bordas de Canny. Como mais um recurso para eliminação de ruidos e melhoria da imagem antes de ser executado a detecção de objetos atravez da detecção de bordas é utilizado desfoque na imagem. O algoritmo de Canny já está implementado dentro da biblioteca OpenCV e com a seguite usagem:
+\begin{center}
+\centering \textit{  Canny(src\_gray, canny\_output, thresh, thresh * 3, 3);}
+\end{center}
+O algoritmo de Canny utiliza por padrão imagem em padrões de cinza, sendo assim \textbf{src\_gray} é a imagem orignal tranformada para escala de cinza. \textbf{canny\_output} será a imagem de saida da função.
+\textbf{thresh} e \textbf{thresh*3} são os limites minimos e maximos para considerar uma borda. \textbf{3} é o valor de apertura ou kernel, o valor 3 é utilizado como padrão.
+
+Apos o uso do algoritmo de Canny para detecção de bordas é necessario então fazer uso da função \textit{findContours}, nativa no \textit{OpenCV} para detecção dos contornos em si.
+\begin{center}
+\centering \textit{ findContours(canny\_output, contours, hierarchy, CV\_RETR\_EXTERNAL, CV\_CHAIN\_APPROX\_SIMPLE, Point(0, 0))}
+\end{center}
+
+

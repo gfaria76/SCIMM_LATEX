@@ -3,171 +3,179 @@
 \bibitem{abnt-url-package=url}
 
 
-\bibitem{Albuquerque:2001}
-M.P. Albuquerque and M.P. Albuquerque.
-\newblock Processamento de imagens: métodos e análises.
-\newblock {\em Revista de Ciência e Tecnologia}, pages 10--22, 2001.
-\newblock Centro Brasileiro de Pesquisas Fısicas MCT.
-
-\bibitem{AmitFelzenszwalb:2014}
-Yali Amit and Pedro Felzenszwalb.
-\newblock Object detection.
-\newblock In Katsushi Ikeuchi, editor, {\em Computer Vision, A Reference
-  Guide}, volume~2, pages 537--542. Springer, New York, NY, USA, 2014.
-
-\bibitem{Canny:1986}
-John Canny.
-\newblock A computational approach to edge detection.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  PAMI-8(6):679--698, Nov 1986.
-
-\bibitem{Costa:2000}
-Anna Helena~Reali Costa and Ren{\^e} Pegoraro.
-\newblock Construindo rob{\^o}s aut{\^o}nomos para partidas de futebol: o time
-  guaran{\'a}.
-\newblock {\em SBA Controle \& Automa{\c{c}}{\~a}o}, 11(03):141--149, 2000.
-
-\bibitem{Culjak:2012}
-I.~Culjak, D.~Abram, T.~Pribanic, H.~Dzapo, and M.~Cifrek.
-\newblock A brief introduction to opencv.
-\newblock In {\em MIPRO, 2012 Proceedings of the 35th International
-  Convention}, pages 1725--1730, May 2012.
-
-\bibitem{Rosa:2015}
-Johnathan~Fercher da~Rosa.
-\newblock Construção de um time de futebol de robôs para a categoria ieee
-  very small size soccer.
-\newblock Master's thesis, FACULDADE DEE DUCAÇÃO TECNOLÓGICA DO ESTADO DO
-  RIO DE JANEIRO.
-
-\bibitem{UFRN}
-Universidade~Federal do~Rio Grande~do Norte.
-\newblock História da estatística.
-\newblock Acessado 31/03/2016 14:50.
-
-\bibitem{Vale:2002}
-Giovane~Maia do~Vale and Aluir Porfírio~Dal Poz.
-\newblock O processo de detecção de bordas de canny: Fundamentos, algoritmos
-  e avaliação exeperimental.
-\newblock In Thomas~J. Bergin and Richard~G. Gibson, editors, {\em Simpósio
-  Brasileiro de Geomática}, pages 292--303. 2002.
-
-\bibitem{QCustomPlot}
-Emanuel Eichhammer.
-\newblock Qcustomplot.
-\newblock Acessado 28/06/2016 22:09.
-
-\bibitem{TabelaUFF}
-Universidade~Federal Fluminense.
-\newblock Tabela t: Distribuição de t-student segundo os graus de liberdade e
-  uma dada probabilidade num teste bicaudal.
-\newblock Epidemiologia, curso de Medicina, Acessado 01/04/2016 10:00.
-
-\bibitem{Gonzalez:2008}
-R.C. Gonzalez and R.E. Woods.
-\newblock {\em Digital Image Processing}.
-\newblock Pearson/Prentice Hall, 2008.
-
 \bibitem{ImagensHSLHSVRGB}
-Michael Horvath.
-
-\bibitem{Kitano:1997}
-Hiroaki Kitano, Minoru Asada, Yasuo Kuniyoshi, Itsuki Noda, Eiichi Osawa, and
-  Hitoshi Matsubara.
-\newblock Robocup: A challenge problem for ai.
-\newblock {\em AI magazine}, 18(1):73, 1997.
-
-\bibitem{Leao:2005}
-Alexandre~Cruz Leão, Arnaldo de~Albuquerque~Araújo, and Luiz Antônio~Cruz
-  Souza.
-\newblock Implementação de sistema de gerenciamento de cores para imagens
-  digitais.
-\newblock In Augusto~Camillo Teixeira, Eduardo Barrére, and Iran~Calixto
-  Abrão, editors, {\em Web e multimídia: desafios e soluções}. PUC Minas,
-  2005.
-
-\bibitem{Martins:2007}
-D.~L. Martins, E.~P. Mendes, F.~C.~A. Lins, M.~V.~d. Araújo, A.~A.~D.
-  Medeiros, and P.~J. Alsina.
-\newblock A versão 2007 da equipe poti de futebol de robôs.
-\newblock In {\em Team Description Paper. Competi{\c{c}}ao Brasileira de
-  Rob{\'o}tica, Florianópolis, Brasil}, 2007.
+HORVATH, M.
+\newblock In: .
 
 \bibitem{Mendes:2008}
-Ellon~P. Mendes and Adelardo A.~D. Medeiros.
+MENDES, E.~P.; MEDEIROS, A. A.~D.
 \newblock Sistema de localização visual da equipe de futebol de robôs
   {POTI-UFRN} (versao 2008) na categoria very small size.
-\newblock In {\em Team Description Paper: Competição Brasileira de
-  Robótica}, Salvador, Brasil, 2008.
+\newblock In: .
+\newblock Salvador, Brasil: , c2008.
 
-\bibitem{Nascimento:2007}
-Maíra~Carneiro Nascimento.
-\newblock Detecção de objetos em imagens.
-\newblock Master's thesis, Centro de Informática, Universidade Federal de
-  Pernambuco.
+\bibitem{Spiegel:1974}
+SPIEGEL, M.~R.
+\newblock {\em Estatística}.
+\newblock McGraw-Hill do Brasil, 1974.
 
 \bibitem{Penharbel:2004}
-Eder~A Penharbel, R~Destro, Flavio Tonidandel, and Reinaldo~AC Bianchi.
+PENHARBEL, E.~A.; DESTRO, R.; TONIDANDEL, F.; BIANCHI, R.~A.
 \newblock Filtro de imagem baseado em matriz rgb de cores-padr{\~a}o para
   futebol de rob{\^o}s.
 \newblock {\em Submetido ao I Encontro de Rob{\'o}tica Inteligente}, 2004.
 
-\bibitem{PenharbelTime}
-Eder~A Penharbel, Murilo~F Martins, Alexandre Fazolin, Jos{\'e}~Angelo
-  Gurzoni~Jr, Helbert Eduardo, Thiago Debia, Valquiria~F Pereira, Ricardo~C
-  Destro, Flavio Tonidandel, and Reinaldo~AC Bianchi.
-\newblock Time de futebol de rob{\^o}s y04 do centro universit{\'a}rio da fei.
+\bibitem{Rosa:2015}
+DA~ROSA, J.~F.
+\newblock {\em Construção de um time de futebol de robôs para a categoria
+  ieee very small size soccer}.
+\newblock Disserta\c{c}\~ao de Mestrado - FACULDADE DEE DUCAÇÃO TECNOLÓGICA
+  DO ESTADO DO RIO DE JANEIRO.
 
-\bibitem{Rocha:2010}
-João~Carlos Rocha.
-\newblock Cor luz, cor pigmento e os sistemas rgb e cmy.
-\newblock {\em Revista Belas, Centro Universitário Belas Artes de Sao Paulo},
-  3, 2010.
+\bibitem{VSSVision}
+SIRLAB.
+\newblock In: .
+
+\bibitem{Albuquerque:2001}
+ALBUQUERQUE, M.; ALBUQUERQUE, M.
+\newblock Processamento de imagens: métodos e análises.
+\newblock {\em Revista de Ciência e Tecnologia}, Rio de Janeiro, p. 10--22,
+  2001.
+\newblock Centro Brasileiro de Pesquisas Fısicas MCT.
+
+\bibitem{Gonzalez:2008}
+GONZALEZ, R.; WOODS, R.
+\newblock {\em Digital image processing}.
+\newblock Pearson/Prentice Hall, 2008.
+
+\bibitem{Viola:2001}
+VIOLA, P.; JONES, M.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock In: .
+\newblock c2001.
+\newblock v. ~1.
+\newblock p. I--511.
+
+\bibitem{Nascimento:2007}
+NASCIMENTO, M.~C.
+\newblock {\em Detecção de objetos em imagens}.
+\newblock Disserta\c{c}\~ao de Mestrado - Centro de Informática, Universidade
+  Federal de Pernambuco.
 
 \bibitem{Roth:2008}
-Peter~M Roth and Martin Winter.
+ROTH, P.~M.; WINTER, M.
 \newblock Survey of appearance-based methods for object recognition.
 \newblock {\em Inst. for Computer Graphics and Vision, Graz University of
   Technology, Austria, Technical Report ICGTR0108 (ICG-TR-01/08)}, 2008.
 
-\bibitem{VSSVision}
-SIRLab.
-
-\bibitem{Souto:2003}
-Roberto~Pinto Souto.
-\newblock Segmentação de imagem multiespectral utilizando-se o atributo
-  matiz.
-\newblock Dissertação de mestrado, INPE, São José dos Campos, 2003.
-
-\bibitem{Spiegel:1974}
-Murray~Ralph Spiegel.
-\newblock {\em Estatística}.
-\newblock McGraw-Hill do Brasil, 1974.
-
-\bibitem{Stroustrup:1996}
-Bjarne Stroustrup.
-\newblock A history of c++: 1979--1991.
-\newblock In Thomas~J. Bergin and Richard~G. Gibson, editors, {\em History of
-  programming languages --- II}. Addison-Wesley, 1996.
+\bibitem{AmitFelzenszwalb:2014}
+AMIT, Y.; FELZENSZWALB, P.
+\newblock Object detection.
+\newblock In: IKEUCHI, K. (Ed.) {\em Computer Vision, A Reference Guide}. New
+  York, NY, USA: Springer, 2014. v. ~2, p. 537--542.
 
 \bibitem{Ulusoy:2005}
-Ilkay Ulusoy and Christopher~M. Bishop.
+ULUSOY, I.; BISHOP, C.~M.
 \newblock Generative versus discriminative methods for object recognition.
-\newblock In {\em Computer Vision and Pattern Recognition, 2005. CVPR 2005.
-  IEEE Computer Society Conference on}, CVPR, pages 258--265, Washington, DC,
-  USA, 2005. IEEE Computer Society.
-
-\bibitem{Viola:2001}
-Paul Viola and Michael Jones.
-\newblock Rapid object detection using a boosted cascade of simple features.
-\newblock In {\em Computer Vision and Pattern Recognition, 2001. CVPR 2001.
-  Proceedings of the 2001 IEEE Computer Society Conference on}, volume~1, pages
-  I--511. IEEE, 2001.
+\newblock In: .
+\newblock CVPR. Washington, DC, USA: IEEE Computer Society, c2005.
+\newblock p. 258--265.
 
 \bibitem{Wangenheim:2014}
-A~WANGENHEIM.
+WANGENHEIM, A.
 \newblock Von. encontrando a linha divis{\'o}ria: Detec{\c{c}}{\~a}o de borda.
 \newblock {\em Departamento de Inform{\'a}tica e Estat{\'\i}stica-Universidade
-  Federal de Santa Catarina, 2013a}, 16.
+  Federal de Santa Catarina, 2013a}, v. 16.
+
+\bibitem{Canny:1986}
+CANNY, J.
+\newblock A computational approach to edge detection.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  v. PAMI-8, n. 6, \newblock p. 679--698, Nov 1986.
+
+\bibitem{Vale:2002}
+DO~VALE, G.~M.; POZ, A. P.~D.
+\newblock O processo de detecção de bordas de canny: Fundamentos, algoritmos
+  e avaliação exeperimental.
+\newblock In: BERGIN, T.~J.; GIBSON, R.~G. (Eds.) {\em Simpósio Brasileiro de
+  Geomática}. 2002. p. 292--303.
+
+\bibitem{Souto:2003}
+SOUTO, R.~P.
+\newblock {\em Segmentação de imagem multiespectral utilizando-se o atributo
+  matiz}.
+\newblock 2003.
+\newblock Disserta\c{c}\~ao de Mestrado - INPE, São José dos Campos, 2003.
+
+\bibitem{Rocha:2010}
+ROCHA, J.~C.
+\newblock Cor luz, cor pigmento e os sistemas rgb e cmy.
+\newblock {\em Revista Belas, Centro Universitário Belas Artes de Sao Paulo},
+  v. 3, 2010.
+
+\bibitem{Leao:2005}
+LEãO, A.~C.; DE~ALBUQUERQUE~ARAúJO, A.; SOUZA, L. A.~C.
+\newblock Implementação de sistema de gerenciamento de cores para imagens
+  digitais.
+\newblock In: TEIXEIRA, A.~C.; BARRéRE, E.; ABRãO, I.~C. (Eds.) {\em Web e
+  multimídia: desafios e soluções}. PUC Minas, 2005.
+
+\bibitem{Martins:2007}
+MARTINS, D.~L.; MENDES, E.~P.; LINS, F. C.~A.; ARAúJO, M. V.~D.; MEDEIROS, A.
+  A.~D.; ALSINA, P.~J.
+\newblock A versão 2007 da equipe poti de futebol de robôs.
+\newblock In: .
+\newblock c2007.
+
+\bibitem{Culjak:2012}
+CULJAK, I.; ABRAM, D.; PRIBANIC, T.; DZAPO, H.; CIFREK, M.
+\newblock A brief introduction to opencv.
+\newblock In: .
+\newblock c2012.
+\newblock p. 1725--1730.
+
+\bibitem{Stroustrup:1996}
+STROUSTRUP, B.
+\newblock A history of c++: 1979--1991.
+\newblock In: BERGIN, T.~J.; GIBSON, R.~G. (Eds.) {\em History of programming
+  languages --- II}. Addison-Wesley, 1996.
+
+\bibitem{TabelaUFF}
+FLUMINENSE, U.~F.
+\newblock Tabela t: Distribuição de t-student segundo os graus de liberdade e
+  uma dada probabilidade num teste bicaudal.
+\newblock Epidemiologia, curso de Medicina, Acessado 01/04/2016 10:00.
+
+\bibitem{UFRN}
+DO~RIO GRANDE~DO NORTE, U.~F.
+\newblock História da estatística.
+\newblock Acessado 31/03/2016 14:50.
+
+\bibitem{Costa:2000}
+COSTA, A. H.~R.; PEGORARO, R.
+\newblock Construindo rob{\^o}s aut{\^o}nomos para partidas de futebol: o time
+  guaran{\'a}.
+\newblock {\em SBA Controle \& Automa{\c{c}}{\~a}o}, v. 11, n. 03, \newblock p.
+  141--149, 2000.
+
+\bibitem{Kitano:1997}
+KITANO, H.; ASADA, M.; KUNIYOSHI, Y.; NODA, I.; OSAWA, E.; MATSUBARA, H.
+\newblock Robocup: A challenge problem for ai.
+\newblock {\em AI magazine}, v. 18, n. 1, \newblock p. 73, 1997.
+
+\bibitem{PenharbelTime}
+PENHARBEL, E.~A.; MARTINS, M.~F.; FAZOLIN, A.; GURZONI~JR, J.~A.; EDUARDO, H.;
+  DEBIA, T.; PEREIRA, V.~F.; DESTRO, R.~C.; TONIDANDEL, F.; BIANCHI, R.~A.
+\newblock Time de futebol de rob{\^o}s y04 do centro universit{\'a}rio da fei.
+
+\bibitem{QCustomPlot}
+EICHHAMMER, E.
+\newblock Qcustomplot.
+\newblock Acessado 28/06/2016 22:09.
+
+\bibitem{OpenCV}
+ITSEEZ.
+\newblock Opencv.
+\newblock Acessado 29/06/2016 16:53.
 
 \end{thebibliography}
