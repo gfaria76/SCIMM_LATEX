@@ -36,5 +36,5 @@
 \contentsline {subsubsection}{Configura\IeC {\c c}\IeC {\~a}o de Camera}{24}{section*.23}
 \contentsline {subsubsection}{Detec\IeC {\c c}\IeC {\~a}o e valida\IeC {\c c}\IeC {\~a}o de Objetos}{25}{section*.24}
 \contentsline {subsubsection}{Calculo de valores HSV}{27}{section*.25}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{28}{section*.26}
-\contentsline {chapter}{Ap\^endices}{29}{Item.30}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{29}{section*.27}
+\contentsline {chapter}{Ap\^endices}{30}{Item.30}

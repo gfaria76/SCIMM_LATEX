@@ -174,5 +174,29 @@ Uma vez obtidos os contornos é necessarios que se faça a eliminação de verti
  Foi implementado uma biblioteca para o uso da probabilidade voltada para objetos Rect, os objetos da biblioteca \textbf{OpenCV} obtidos na detecção. Essa biblioteca analiza a lista de objetos encontrados na detecção e faz o calculo dos limites, tamanho minimo e maximo, dos objetos. Apos a obtenção desse limite pela biblioteca são analizados todos os objetos encontrados na detecção e os cujo tamanho não esteja dentro deste limite são removidos da lista.
  \newpage
  \subsubsection{Calculo de valores HSV}
- 
+ Para que possam ser feitos os calculos de valores HSV minimos e maximos é necessario que se faça, primeiramente a conversão da imagem obtida pela camera, normalmente no espaço de cores RGB, para o espaço de cores HSV, pois a mesma lida melhor com deferenças de luminosidade. 
+ A biblioteca \textbf{OpenCV} converte o espaço de cor usando a função \textit{cvtColor} que utiliza da imagem original, e de uma imagem vazia com memoria alocada para ser salva a imagem apos a conversão, além do parametro do tipo de conversão, Exemplo do uso do método:
+\begin{center}
+\centering \textit{cvtColor(frame, HSV, CV\_RGB2HSV);}
+\end{center}
 
+Apos a conversao é necessario, então, ser feita uma analise dos objetos encontrados. Para cada objeto serao somadas as ocorrencias de cada um dos valores, HSV, e salvos separadamente em um vetor para cada, H, S e V com 256 posiçoes, uma vez que se sabe que os valores de um pixel varial de 0 a 255. As ocorrençias sao salvas se baseando no valor HSV do pixel. Para isso o pixel é separado em valores H, S e V este então tera seu valor correspondente a posição no vetor apropiado, por exemplo, se o valor de H em um determinado pixel for de 87, a posição de numero 87 no vetor ganhara uma ocorrencia a mais. No codigo, fica da seguinte maneira.
+		\begin{lstlisting}
+for (int y = insideRect.at(i).tl().y; y < insideRect.at(i).br().y; y++) {
+ for (int x = insideRect.at(i).tl().x; x < insideRect.at(i).br().x; x++) {
+	                pixel = HSV.at<cv::Vec3b>(y, x);
+	                H[pixel.val[0]]++;
+	                S[pixel.val[1]]++;
+	                V[pixel.val[2]]++;
+	            }
+	        }	\end{lstlisting}
+
+Uma vez terminada a analize dos pixeis do objeto o sistema procupa a primeira e ultima ocorrencia, ou seja o intervalo de valores onde houve occorencia. Esse calculo é feito procurando o primeiro valor de pixel que não esta zerado, e o ultimo valor que não esta zerado. Isto é feito para eliminar que pontos que não tenham cor acabem influenciendo.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{graficohsv.png}
+	\caption{Grafico Exemplificando a Ocorrencia dos valores de H.}
+	\label{Grafico Exemplo}
+\end{figure}
+
+Como mostrado na Figura 3.6, não são todos os valores possiveis que possuem ocorrencia, então para diminuir a extensão dos valores a serem comparados na hora de detectar objetos se baseando na cor. Então o alcance é diminuido, encontrado assim o valor minimo e maximo possivel dentro da cor de um determinado objeto.
