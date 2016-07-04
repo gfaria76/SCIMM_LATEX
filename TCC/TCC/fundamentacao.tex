@@ -201,7 +201,7 @@ Para o tema especifico deste trabalho, calibração de intervalo de cores para t
 
 \subsection{Calibra}
 O Centro Universitário da FEI, como visto em\cite{PenharbelTime}, utiliza em sua equipe Y04 utiliza um sistema, desenvolvido denominado CALIBRA\cite{Penharbel:2004}.Desenvolvido para sistemas Linux e com Graphical User Interface\cite{Penharbel:2004}, o sistema de calibração possui um modulo chamado de MainWindow, que é responsavel pela configuracao de brilho, cor e contraste da imagem adquirida pela camera e gera um arquivo que é analizado na hora da criacao das cores padrao\cite{PenharbelTime}, onde cores-padrão são definidas como intervalos no espaço de cores HSI\cite{PenharbelTime}.
-
+\newpage
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{calibra.pdf}
@@ -210,6 +210,9 @@ O Centro Universitário da FEI, como visto em\cite{PenharbelTime}, utiliza em su
 \end{figure}
 
 
+
+
+\newpage
 \subsection{VSS-Vision}
 Desenvolvido inicialmente em Janeiro de 2016 pelo Laboratório de Sistemas Inteligentes de Robótica (SIRLab), utilizando para procesamento de imagens a biblioteca OpenCV e para telas interativas a biblioteca  ImGui.
 
@@ -219,6 +222,7 @@ Desenvolvido inicialmente em Janeiro de 2016 pelo Laboratório de Sistemas Intel
 	\caption{Sistema de calibracao desenvolvido peloSIRLab \cite{Rosa:2015}}
 	\label{SIRLabCalibracao}
 \end{figure}
+
 A rotina de calibração do VSS-Vision calibra laranja, amarelo e azul obrigatoriamente e as outra cores referentes aos jogadores em campo\cite{Rosa:2015} de acordo com a escolha do time. A imagem é divida em nove cantos, como visto na imagem 2.7, e para calibrar a cor o usuario deve clicar em cima da cor que gostaria de ser calibrada salvando um intervalo de cor tratado como RGB máximo daquela cor e o mínimo, a medida
 que vão havendo os cliques o sistema verifica para cada atributo se ele é maior que o atributo
 máximo salvo ou menor que mínimo salvo, caso seja, o mesmo assume o lugar de menor ou
