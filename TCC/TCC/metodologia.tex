@@ -48,7 +48,7 @@
 		\item[Identificação de Objetos:]
 				 Durante o processo de aquisição de imagem são selecionados os objetos, quais serão usados como base para a detecção de máximos e mínimos de cores.
 		\item [Cálculo de Mínimos e Máximos:]
-		 Nessa etapa são levados em consideração os objetos teste. A imagem é "varrida"  por pixel na localidade dos objetos-teste e assim são salvos seus valores e feito a contagem de ocorrências de cada cor.		
+		 Nessa etapa são levados em consideração os objetos teste. A imagem é percorrida pixel a pixel na localidade dos objetos-teste e assim são salvos seus valores e feito a contagem de ocorrências de cada cor.		
 	\end{description}
 
 
@@ -96,31 +96,34 @@ Para melhor entendimento da interação entre as classes a figura 3.2 trás o di
 
 	
 
-	\section{Fluxo do Sistema}
-O sistema possui um fluxo principal e dois subfluxos de acordo com o tipo de calibração escolhida. A Figura 3.3 mostra o fluxo principal do sistema.
+	\section{O Sistema}
+
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.45\textwidth]{fluxoprincipal.pdf}
 			\caption{Diagrama de Fluxo}
 			\label{FlowCHart}
-		\end{figure} 
+		\end{figure}
+		A Figura 3.3 mostra o diagrama de fluxo do sistema, este com duas possibilidades: Calibração Manual e Calibração Automatica. Ambas são independentes uma da outra.  
 		
-		 O fluxo principal do sistema consiste na apresentação da \textbf{interface grafica} ao usuario. A \textbf{interface grafica} por sua vez oferece as duas possibilidades de calibração: Calibração Manual e Calibração Automatica. De acordo com o tipo de calibração escolhido o sistema inicia um subfluxo. Apos a execução de todo subfluxo o sistema é finalizada.
+		 O sistema consiste na apresentação da \textbf{interface gráfica} ao usuario. A \textbf{interface grafica} que por sua vez oferece as duas possibilidades ao usuario, de acordo com o tipo de calibração escolhido o sistema inicia a rotina de calibração referente. Apos a execução de toda o sistema é finalizada.
 			
-	\subsection{Fluxo de Calibração Automatica}	
-	O fluxo de calibração automatica possui o mínimo possivel de interação com o usuario. Neste fluxo o sistema faz automaticamente a detecção de objetos e utilizando a probabilidade matematica conhecida com T de Student verifica o tamanho de cada objeto encontrado para gerar um limite considerado o tamanho que os objetos que devem ser encontrados terão, nesse caso as etiquetas de cores dos robos e só então analisar os valores e calcular os valores mínimos e máximos de HSV automaticamente.	
-	O fluxo inicia somente caso a camera esteja disponivel(1), apos a sua inicialização é feita a configuração da camera(2), enquadramento do tamanho correto e correção de brilho e luminosidade. Uma vez que a camera está configurada o sistema inicia a deteção de objetos e a validação dos objetos(3) que estão no tamanho correto. Apos deixar somente os objetos corretos no sistema, os pixeis de cada um são varridos e seu intervalo HSV encontrado(4). Os objetos e cores encontrados ficam disponiveis para o usuario apra esse fazer a assimilação entre os objetos e as cores corretas(5), após intervalos corretos já tiverem sido calibrados, um arquivo com os valores é gerado(6) e o usuario finaliza o sistema.
+	\subsection{Calibração Automatica}	
 		\begin{figure}[!h]
-				\centering
-				\includegraphics[width=0.45\textwidth]{fluxoautomatico.pdf}
-				\caption{Diagrama de Fluxo Automatico}
-				\label{DiagramaDeFluxoAutomatico}
-			\end{figure} 
+					\centering
+					\includegraphics[width=0.45\textwidth]{fluxoautomatico.pdf}
+					\caption{Diagrama de Fluxo Automatico}
+					\label{DiagramaDeFluxoAutomatico}
+				\end{figure} 
+		Conformo mostrado na Figura \ref{DiagramaDeFluxoAutomatico} a rotina de calibração automatica possui cinco etapas. Este tipo de calibração  possui o mínimo possivel de interação com o usuario. O sistema faz automaticamente a detecção de objetos e utilizando a probabilidade matematica T de Student, considerando o tamanho de todos os objetos encontrados para encontrar os tamanhos minimo e maximo que os objetos desejados devem ter, nesse caso as etiquetas de cores dos robos, e só após determinar quais objetos possuem o tamanho desejado, analisar os valores e calcular as ocorrencias de cada um dos três valores do modelo HSV.
 			
-		Nas sessões à seguir explicarei detalhadamente cada processo da calibração automatica
-	\subsubsection{Configuração de Camera}
-Antes de ser feito o processo de calibração são necessarias duas configurações: Constrate e Brilho e o Recorte de Imagem.
-A configuraça~o de contraste e brilho utiliza o metodo \textit{convertTo} da biblioteca \textit{OpenCV} e é utilizada para o melhoramento da imagem antes da detecção dos objetos, a utilização completa fica da seguinte maneira:
+%	O fluxo inicia somente caso a camera esteja disponivel(1), apos a sua inicialização é feita a configuração da camera(2), enquadramento do tamanho correto e correção de brilho e luminosidade. Uma vez que a camera está configurada o sistema inicia a deteção de objetos e a validação dos objetos(3) que estão no tamanho correto. Apos deixar somente os objetos corretos no sistema, os pixeis de cada um são varridos e seu intervalo HSV encontrado(4). Os objetos e cores encontrados ficam disponiveis para o usuario apra esse fazer a assimilação entre os objetos e as cores corretas(5), após intervalos corretos já tiverem sido calibrados, um arquivo com os valores é gerado(6) e o usuario finaliza o sistema.
+	
+			
+	Nas subsessões à seguir explicarei detalhadamente cada uma das etapas do processo de calibração automatica
+	\subsubsection{1ª Etapa - Configuração de Camera}
+Antes de ser feito a calibração propriamente dita são necessarias duas configurações: Ajuste de Constrate e Brilho e Recorte de Imagem.
+A configuração de contraste e brilho utiliza o metodo \textit{convertTo} da biblioteca \textit{OpenCV} e é utilizada para o melhoramento da imagem antes da detecção dos objetos, a utilização completa fica da seguinte maneira:
 \begin{center}
 \centering \textit{ frameA.convertTo(frameA, -1, contrast\_value / 50.0, brightness\_value)}
 \end{center}
@@ -138,7 +141,7 @@ A função rebece os parametros \textbf{frameA} indicando a imagem na qual será
  Após confirmada a escolha do tamanho da tela 
 este é então salvo na variavel nomeada \textit{tamanho}, está então sera usado durante todo o processo de calibração.
 \newpage
-\subsubsection{Detecção e validação de Objetos}
+\subsubsection{2ª Etapa - Detecção e validação de Objetos}
 A detecção dos objetos a serem calibrados é dada pelo algoritmo de detecção de bordas de Canny. Como mais um recurso para eliminação de ruidos e melhoria da imagem antes de ser executado a detecção de objetos atravez da detecção de bordas é utilizado desfoque na imagem. O algoritmo de Canny já está implementado dentro da biblioteca OpenCV e com a seguite usagem:
 \begin{center}
 \centering \textit{  Canny(src\_gray, canny\_output, thresh, thresh * 3, 3);}
@@ -164,24 +167,30 @@ Uma vez obtidos os contornos é necessarios que se faça a eliminação de verti
  A detecção de contorno detecta todos os contornos possiveis na imagem, isso inclue sombras, luzes entre outras coisas. Mas não são todos os objetos encontrados que deverão ser calculados, sendo assim foi usado o cálculo probabilistico T de Student.
  Foi implementado uma biblioteca para o uso da probabilidade voltada para objetos Rect, os objetos da biblioteca \textbf{OpenCV} obtidos na detecção. Essa biblioteca analisa a lista de objetos encontrados na detecção e faz o cálculo dos limites, tamanho mínimo e máximo, dos objetos. Apos a obtenção desse limite pela biblioteca são analisados todos os objetos encontrados na detecção e os cujo tamanho não esteja dentro deste limite são removidos da lista.
  
- \subsubsection{Calculo de valores HSV}
+ \subsubsection{3ª Etapa - Calculo de valores HSV}
  Para que possam ser feitos os cálculo de valores HSV mínimo e máximos é necessario que se faça, primeiramente a conversão da imagem obtida pela camera, normalmente no espaço de cores RGB, para o espaço de cores HSV, pois a mesma lida melhor com deferenças de luminosidade. 
  A biblioteca \textbf{OpenCV} converte o espaço de cor usando a função \textit{cvtColor} que utiliza da imagem original, e de uma imagem vazia com memoria alocada para ser salva a imagem apos a conversão, além do parametro do tipo de conversão, Exemplo do uso do método:
 \begin{center}
 \centering \textit{cvtColor(frame, HSV, CV\_RGB2HSV);}
 \end{center}
 
-Apos a conversão é necessario, então, ser feita uma analise dos objetos encontrados. Para cada objeto serão somadas as ocorrencias de cada um dos valores, HSV, e salvos separadamente em um vetor para cada, H, S e V com 256 posiçoes, uma vez que se sabe que os valores de um pixel varial de 0 a 255. As ocorrençias são salvas se baseando no valor HSV do pixel. Para isso o pixel é separado em valores H, S e V este então tera seu valor correspondente a posição no vetor apropiado, por exemplo, se o valor de H em um determinado pixel for de 87, a posição de numero 87 no vetor ganhara uma ocorrencia a mais. No codigo, fica da seguinte maneira.
-		\begin{lstlisting}
-for (int y = insideRect.at(i).tl().y; y < insideRect.at(i).br().y; y++) {
- for (int x = insideRect.at(i).tl().x; x < insideRect.at(i).br().x; x++) {
-	                pixel = HSV.at<cv::Vec3b>(y, x);
-	                H[pixel.val[0]]++;
-	                S[pixel.val[1]]++;
-	                V[pixel.val[2]]++;
-	            }
-	        }	\end{lstlisting}
-
+Apos a conversão é necessario, então, ser feita uma analise dos objetos encontrados. Para cada objeto serão somadas as ocorrencias de cada um dos valores, HSV, e salvos separadamente em um vetor para cada, H, S e V com 256 posiçoes, uma vez que se sabe que os valores de um pixel varial de 0 a 255. As ocorrençias são salvas se baseando no valor HSV do pixel. Para isso o pixel é separado em valores H, S e V este então tera seu valor correspondente a posição no vetor apropiado, por exemplo, se o valor de H em um determinado pixel for de 87, a posição de numero 87 no vetor ganhara uma ocorrencia a mais. No codigo, fica da seguinte maneira:
+	        
+	        \begin{algorithm}
+	       		 \caption{Contagem dos Valores HSV}
+		        \begin{algorithmic}
+		     	
+		     	\ForAll{objeto encontrado} 
+		   		 \State ValoresH[objeto.valorh]++ 
+		    	 \State	ValoresS[objeto.valors]++ 
+		     	 \State	ValoresV[objeto.valorv]++
+		     	\EndFor
+		     		
+		        \end{algorithmic}
+	        
+	        \end{algorithm}
+	        
+        
 Uma vez terminada a analise dos pixeis do objeto o sistema procupa o valor mínimo e máximo, ou seja a primeira e ultima ocorrencia. Esses valores são encontrados procurando o primeiro valor de pixel que não esta zerado e o ultimo valor que não esta zerado. Isto é feito para eliminar que durante a analise o numero de valores a serem comparados ao valor real do pixel, da imagem final, seja menor. Para exemplificar a Figura 3.6 tras o gráfico dos valores de H da calibração de um certo objeto antes de ser feia a eliminação dos valores. Se fosse analisado esses valores, não eliminando os valores zerados, o sistema buscaria no valor de H do pixel desde o valor 1 ao 126 sem a necessidade, pois se não houve ocorrencia desses valores no objeto de referencia, o que foi analisado, então esses valores não fazem parte da cor desejada.
 % e tambem para remover ruidos de outros cores para que estas não interfiram na pureza da busca da dada cor.
 
@@ -202,38 +211,42 @@ Uma vez terminada a analise dos pixeis do objeto o sistema procupa o valor míni
 
 Após serem encontrados os valores mínimo e máximos para H, S e V de cada objeto detectado, estes valores são salvos em uma lista de objetos do tipo CorCalibrada. Neste objeto são salvos os respectivos valores.
 
- \subsubsection{Assimilação de Objeto à Cor}
+ \subsubsection{4ª Etapa - Assimilação de Objeto à Cor}
  Uma vez que os objetos já foram identificados, suas cores analisadas e gerada sua lista. O sistema, utilizando do recurso de interface gráfica disponivel pela biblioteca Qt, informa ao usuario uma lista com os intervalos de cores encontrados, e outra lista com as possiveis cores a serem assimiladas para eles. Assim o usuario pode analisar um por um dos objetos e escolher qual se assemelha a qual cor. Assim que assimilada a cor ao objeto este é salvo e seu objeto CorCalibrada na lista de objetos salva o valor da cor em seu atributo COR\_INDICE.
  
-  \subsubsection{Gerar Arquivo de Cores}
+  \subsubsection{5ª Etapa - Gerar Arquivo de Cores}
   Assim que todas as cores já estiverem sido assimiladas e a calibração finalizada, gera-se um arquivo chamado \textbf{cores.arff} contendo o indice de cada cor calibraa e seus valores máximos e mínimos.
   
   		
-  	\subsection{Fluxo de Calibração Manual}	
-   	O fluxo de calibração manual é iniciado somente se a camera estiver disponivel. Após a camera ser inicializada(1) o sistema espera pela seleção do objeto(2) o qual tera seus pixeis calculados para gerar os valores HSV. Com o objeto selecionado o usuario escolhe então a cor(4), na opção de escolha de cor, e calibrar. A area selecionada é então analisada e os valores de cada pixel calculados analisando seu HSV(3).
-   	O usuario então seleciona os valores que considera satisfatorios(5). Enquanto houverem objetos a serem calibrados(6) o sistema repete esta mesma rotina, quando todos os objetos já tiverem sido calibrados, um arquivo com os valores é gerado(7) e o usuario finaliza o sistema.
-  		\begin{figure}[!h]
-  				\centering
-  				\includegraphics[width=0.45\textwidth]{fluxomanual.pdf}
-  				\caption{Diagrama de Fluxo Manual}
-  				\label{DiagramaDeFluxoManual}
-  			\end{figure}
-  			
-  	\subsubsection{Seleção de Objeto}	
+  	\subsection{Calibração Manual}
+  	
+  	  		\begin{figure}[!h]
+  	  				\centering
+  	  				\includegraphics[width=0.45\textwidth]{fluxomanual.pdf}
+  	  				\caption{Diagrama de Fluxo Manual}
+  	  				\label{DiagramaDeFluxoManual}
+  	  			\end{figure}
+  	  		
+  	  			
+   A Figura \ref{DiagramaDeFluxoManual} mostra o fluxo de calibração manual, o sistema possui cinco etapas que permanecem em repetição até que todos os objetos sejam calibrados. Como o próprio nome já indica, o metodo de calibração é manual, sendo assim é necessario que o usuario selecione o objeto que o mesmo quer calibrar.
+%   Após a camera ser inicializada(1) o sistema espera pela seleção do objeto(2) o qual tera seus pixeis calculados para gerar os valores HSV. Com o objeto selecionado o usuario escolhe então a cor(4), na opção de escolha de cor, e calibrar. A area selecionada é então analisada e os valores de cada pixel calculados analisando seu HSV(3).
+%   	O usuario então seleciona os valores que considera satisfatorios(5). Enquanto houverem objetos a serem calibrados(6) o sistema repete esta mesma rotina, quando todos os objetos já tiverem sido calibrados, um arquivo com os valores é gerado(7) e o usuario finaliza o sistema.
+	
+  	\subsubsection{1ª Etapa - Seleção de Objeto}	
   	O primeiro passo para ser feita a calibração manual é a seleção de Objeto. Com o auxilio da função setMouseCallback, disponivel na biblioteca \textbf{OpenCV} e já explanada na sessão 3.2.1, é possivel obter os pontos de uma seleção feita na imagem, seu uso é necessario, já que obtenção de um ou mais objetos com a \textbf{mesma cor} a serem analisados é feita somente com a interação do usuario. Neste seleção existe a possibilidade de escolher somente um objeto ou mais de um objeto da mesma cor em diferentes pontos do campo, a seleção é feita somente um objeto por vez e cada objeto é analisado e seu valor e ocorrencia calculado utilizando o mesmo metodo encontrado na sessão 3.2.1 subsessão \textbf{Calculo de valores HSV}, estes valores são armazenados em memoria de execução e somente mostrados ao usuario quando requisitados. 
   	
-  	\subsubsection{Plotagem de Valores HSV}	
+  	\subsubsection{2ª Etapa - Plotagem de Valores HSV}	
   	Uma vez que o usuario já selecionou todos os objetos e os mesmos já foram analisados, o processo de calibração encaminha à interface grafica os valores encontrados e está plota três gráficos, um para cada um dos valores HSV.
   	Com a ajuda do componente auxiliar qcustomplot os gráficos são mostrados no sistema informando para o usuario quais foram os valores obtidos na seleção.
   	
-  	\subsubsection{Seleção de Cor a ser Calibrada}
+  	\subsubsection{3ª Etapa - Seleção de Cor a ser Calibrada}
   	A seleção da cor na lista de cores possiveis para ser assimilado, pode ser considerada uma ação concomitante à ação de plotagem de graficos sendo que uma não depende dá outra, já que no momento da seleção do objeto o usuario já tinha em mente qual era sua cor, e a plotagem do gráfico não interfere nessa escolha, já a plotagem do gráfico é uma ação somente visual e não tem influencia da cor escolhida.
   	
-  	\subsubsection{Seleção de Minimos e Maximos}
+  	\subsubsection{4ª Etapa - Seleção de Minimos e Maximos}
   	 Assim que os graficos são plotados, se torna então possivel, utilizando o recurso Slider, de fazer a seleção dos valores, tanto mínimo, quanto máximo. Ao ser modificado, cada um dos valores, o gráfico se ajusta para melhor detalhar ao usuario a ocorrencia dos pixeis. Ao contrario do sistema automatico, no sistema manual o objeto CorCalibrada só é criado após a seleção da cor e dos intervalos pelo usuario. Quando este salva a cor na interface gráfica, a mesma cor é encaminhada para o sistema manual e assim salva na lista.
   	 
   	 
-\subsubsection{Gerar Arquivo de Cores}
+\subsubsection{5ª Etapa - Gerar Arquivo de Cores}
 Do mesmo modo que ocorre na calibração automatica, uma vez que todas as cores já estiverem sido assimiladas pelo usuario, este então finaliza a calibração e um arquivo com os valores calibrados é salvo localmente.
   	   	
   		

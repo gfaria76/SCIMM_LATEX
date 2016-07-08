@@ -26,22 +26,22 @@
 \contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{16}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Calibra}{16}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}VSS-Vision}{18}{subsection.2.6.2}
-\contentsline {chapter}{\numberline {3}Metodologia e Desenvolvimento}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Projeto}{19}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Organiza\IeC {\c c}\IeC {\~a}o do Projeto}{19}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Classes}{21}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Fluxo do Sistema}{21}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Automatica}{22}{subsection.3.2.1}
-\contentsline {subsubsection}{Configura\IeC {\c c}\IeC {\~a}o de Camera}{22}{section*.22}
-\contentsline {subsubsection}{Detec\IeC {\c c}\IeC {\~a}o e valida\IeC {\c c}\IeC {\~a}o de Objetos}{24}{section*.23}
-\contentsline {subsubsection}{Calculo de valores HSV}{25}{section*.24}
-\contentsline {subsubsection}{Assimila\IeC {\c c}\IeC {\~a}o de Objeto \IeC {\`a} Cor}{26}{section*.27}
-\contentsline {subsubsection}{Gerar Arquivo de Cores}{27}{section*.28}
-\contentsline {subsection}{\numberline {3.2.2}Fluxo de Calibra\IeC {\c c}\IeC {\~a}o Manual}{27}{subsection.3.2.2}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o de Objeto}{28}{section*.30}
-\contentsline {subsubsection}{Plotagem de Valores HSV}{28}{section*.31}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o de Cor a ser Calibrada}{28}{section*.32}
-\contentsline {subsubsection}{Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{28}{section*.33}
-\contentsline {subsubsection}{Gerar Arquivo de Cores}{28}{section*.34}
-\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{29}{section*.35}
-\contentsline {chapter}{Ap\^endices}{30}{Item.30}
+\contentsline {chapter}{\numberline {3}Metodologia e Desenvolvimento}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Projeto}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Organiza\IeC {\c c}\IeC {\~a}o do Projeto}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Classes}{22}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}O Sistema}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Calibra\IeC {\c c}\IeC {\~a}o Automatica}{23}{subsection.3.2.1}
+\contentsline {subsubsection}{1\IeC {\textordfeminine } Etapa - Configura\IeC {\c c}\IeC {\~a}o de Camera}{24}{section*.24}
+\contentsline {subsubsection}{2\IeC {\textordfeminine } Etapa - Detec\IeC {\c c}\IeC {\~a}o e valida\IeC {\c c}\IeC {\~a}o de Objetos}{25}{section*.25}
+\contentsline {subsubsection}{3\IeC {\textordfeminine } Etapa - Calculo de valores HSV}{26}{section*.26}
+\contentsline {subsubsection}{4\IeC {\textordfeminine } Etapa - Assimila\IeC {\c c}\IeC {\~a}o de Objeto \IeC {\`a} Cor}{27}{section*.29}
+\contentsline {subsubsection}{5\IeC {\textordfeminine } Etapa - Gerar Arquivo de Cores}{28}{section*.30}
+\contentsline {subsection}{\numberline {3.2.2}Calibra\IeC {\c c}\IeC {\~a}o Manual}{28}{subsection.3.2.2}
+\contentsline {subsubsection}{1\IeC {\textordfeminine } Etapa - Sele\IeC {\c c}\IeC {\~a}o de Objeto}{28}{section*.32}
+\contentsline {subsubsection}{2\IeC {\textordfeminine } Etapa - Plotagem de Valores HSV}{29}{section*.33}
+\contentsline {subsubsection}{3\IeC {\textordfeminine } Etapa - Sele\IeC {\c c}\IeC {\~a}o de Cor a ser Calibrada}{29}{section*.34}
+\contentsline {subsubsection}{4\IeC {\textordfeminine } Etapa - Sele\IeC {\c c}\IeC {\~a}o de Minimos e Maximos}{29}{section*.35}
+\contentsline {subsubsection}{5\IeC {\textordfeminine } Etapa - Gerar Arquivo de Cores}{29}{section*.36}
+\contentsline {chapter}{Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{30}{section*.37}
+\contentsline {chapter}{Ap\^endices}{32}{Item.29}

@@ -1,181 +1,197 @@
-\begin{thebibliography}{10}
-
-\bibitem{abnt-url-package=url}
-
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
 
 \bibitem{ImagensHSLHSVRGB}
-HORVATH, M.
-\newblock In: .
+\abntrefinfo{Horvath}{HORVATH}{}
+{HORVATH, M.}
 
 \bibitem{Mendes:2008}
-MENDES, E.~P.; MEDEIROS, A. A.~D.
-\newblock Sistema de localização visual da equipe de futebol de robôs
-  {POTI-UFRN} (versao 2008) na categoria very small size.
-\newblock In: .
-\newblock Salvador, Brasil: , c2008.
+\abntrefinfo{Mendes e Medeiros}{MENDES; MEDEIROS}{2008}
+{MENDES, E.~P.; MEDEIROS, A. A.~D. Sistema de localização visual da equipe de
+  futebol de robôs {POTI-UFRN} (versao 2008) na categoria very small size. In:
+   \emph{Team Description Paper: Competição Brasileira de Robótica}.
+  Salvador, Brasil: [s.n.], 2008.}
 
 \bibitem{Spiegel:1974}
-SPIEGEL, M.~R.
-\newblock {\em Estatística}.
-\newblock McGraw-Hill do Brasil, 1974.
+\abntrefinfo{Spiegel}{SPIEGEL}{1974}
+{SPIEGEL, M.~R. \emph{Estatística}. [S.l.]: McGraw-Hill do Brasil, 1974.}
 
 \bibitem{Penharbel:2004}
-PENHARBEL, E.~A.; DESTRO, R.; TONIDANDEL, F.; BIANCHI, R.~A.
-\newblock Filtro de imagem baseado em matriz rgb de cores-padr{\~a}o para
-  futebol de rob{\^o}s.
-\newblock {\em Submetido ao I Encontro de Rob{\'o}tica Inteligente}, 2004.
+\abntrefinfo{Penharbel et al.}{PENHARBEL et al.}{2004}
+{PENHARBEL, E.~A. et al. Filtro de imagem baseado em matriz rgb de
+  cores-padr{\~a}o para futebol de rob{\^o}s.
+\emph{Submetido ao I Encontro de Rob{\'o}tica Inteligente}, 2004.}
 
 \bibitem{Rosa:2015}
-DA~ROSA, J.~F.
-\newblock {\em Construção de um time de futebol de robôs para a categoria
-  ieee very small size soccer}.
-\newblock Disserta\c{c}\~ao de Mestrado - FACULDADE DEE DUCAÇÃO TECNOLÓGICA
-  DO ESTADO DO RIO DE JANEIRO.
+\abntrefinfo{Rosa}{ROSA}{}
+{ROSA, J.~F. da.
+\emph{Construção de um time de futebol de robôs para a categoria IEEE Very
+  Small Size Soccer}.
+Disserta\c{c}\~{a}o (Mestrado) --- FACULDADE DEE DUCAÇÃO TECNOLÓGICA DO
+  ESTADO DO RIO DE JANEIRO.}
 
 \bibitem{VSSVision}
-SIRLAB.
-\newblock In: .
+\abntrefinfo{SIRLab}{SIRLAB}{}
+{SIRLAB. In:  . [S.l.: s.n.].}
 
 \bibitem{Albuquerque:2001}
-ALBUQUERQUE, M.; ALBUQUERQUE, M.
-\newblock Processamento de imagens: métodos e análises.
-\newblock {\em Revista de Ciência e Tecnologia}, Rio de Janeiro, p. 10--22,
-  2001.
-\newblock Centro Brasileiro de Pesquisas Fısicas MCT.
+\abntrefinfo{Albuquerque e Albuquerque}{ALBUQUERQUE; ALBUQUERQUE}{2001}
+{ALBUQUERQUE, M.; ALBUQUERQUE, M. Processamento de imagens: métodos e
+  análises.
+\emph{Revista de Ciência e Tecnologia}, FaCET, Rio de Janeiro, v.~1, n.~1, p.
+  10--22, 2001.
+ISSN 1519-8022.
+Centro Brasileiro de Pesquisas Fısicas MCT.}
 
 \bibitem{Gonzalez:2008}
-GONZALEZ, R.; WOODS, R.
-\newblock {\em Digital image processing}.
-\newblock Pearson/Prentice Hall, 2008.
+\abntrefinfo{Gonzalez e Woods}{GONZALEZ; WOODS}{2008}
+{GONZALEZ, R.; WOODS, R. \emph{Digital Image Processing}. Pearson/Prentice
+  Hall, 2008.
+ISBN 9780131687288. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=8uGOnjRGEzoC}.}
 
 \bibitem{Viola:2001}
-VIOLA, P.; JONES, M.
-\newblock Rapid object detection using a boosted cascade of simple features.
-\newblock In: .
-\newblock c2001.
-\newblock v. ~1.
-\newblock p. I--511.
+\abntrefinfo{Viola e Jones}{VIOLA; JONES}{2001}
+{VIOLA, P.; JONES, M. Rapid object detection using a boosted cascade of simple
+  features. In:  IEEE. \emph{Computer Vision and Pattern Recognition, 2001.
+  CVPR 2001. Proceedings of the 2001 IEEE Computer Society Conference on}.
+  [S.l.], 2001. v.~1, p. I--511.}
 
 \bibitem{Nascimento:2007}
-NASCIMENTO, M.~C.
-\newblock {\em Detecção de objetos em imagens}.
-\newblock Disserta\c{c}\~ao de Mestrado - Centro de Informática, Universidade
-  Federal de Pernambuco.
+\abntrefinfo{Nascimento}{NASCIMENTO}{}
+{NASCIMENTO, M.~C.
+\emph{Detecção de Objetos em Imagens}.
+Disserta\c{c}\~{a}o (Mestrado) --- Centro de Informática, Universidade Federal
+  de Pernambuco.}
 
 \bibitem{Roth:2008}
-ROTH, P.~M.; WINTER, M.
-\newblock Survey of appearance-based methods for object recognition.
-\newblock {\em Inst. for Computer Graphics and Vision, Graz University of
-  Technology, Austria, Technical Report ICGTR0108 (ICG-TR-01/08)}, 2008.
+\abntrefinfo{Roth e Winter}{ROTH; WINTER}{2008}
+{ROTH, P.~M.; WINTER, M. Survey of appearance-based methods for object
+  recognition.
+\emph{Inst. for Computer Graphics and Vision, Graz University of Technology,
+  Austria, Technical Report ICGTR0108 (ICG-TR-01/08)}, 2008.}
 
 \bibitem{AmitFelzenszwalb:2014}
-AMIT, Y.; FELZENSZWALB, P.
-\newblock Object detection.
-\newblock In: IKEUCHI, K. (Ed.) {\em Computer Vision, A Reference Guide}. New
-  York, NY, USA: Springer, 2014. v. ~2, p. 537--542.
+\abntrefinfo{Amit e Felzenszwalb}{AMIT; FELZENSZWALB}{2014}
+{AMIT, Y.; FELZENSZWALB, P. Object detection. In:  IKEUCHI, K. (Ed.).
+  \emph{Computer Vision, A Reference Guide}. New York, NY, USA: Springer, 2014.
+  v.~2, p. 537--542.}
 
 \bibitem{Ulusoy:2005}
-ULUSOY, I.; BISHOP, C.~M.
-\newblock Generative versus discriminative methods for object recognition.
-\newblock In: .
-\newblock CVPR. Washington, DC, USA: IEEE Computer Society, c2005.
-\newblock p. 258--265.
+\abntrefinfo{Ulusoy e Bishop}{ULUSOY; BISHOP}{2005}
+{ULUSOY, I.; BISHOP, C.~M. Generative versus discriminative methods for object
+  recognition. In:  \emph{Computer Vision and Pattern Recognition, 2005. CVPR
+  2005. IEEE Computer Society Conference on}. Washington, DC, USA: IEEE
+  Computer Society, 2005.  (CVPR), p. 258--265.
+ISBN 0-7695-2372-2. Dispon{\'\i}vel em:
+  \url{http://dx.doi.org/10.1109/CVPR.2005.167}.}
 
 \bibitem{Wangenheim:2014}
-WANGENHEIM, A.
-\newblock Von. encontrando a linha divis{\'o}ria: Detec{\c{c}}{\~a}o de borda.
-\newblock {\em Departamento de Inform{\'a}tica e Estat{\'\i}stica-Universidade
-  Federal de Santa Catarina, 2013a}, v. 16.
+\abntrefinfo{WANGENHEIM}{WANGENHEIM}{}
+{WANGENHEIM, A. Von. encontrando a linha divis{\'o}ria: Detec{\c{c}}{\~a}o de
+  borda.
+\emph{Departamento de Inform{\'a}tica e Estat{\'\i}stica-Universidade Federal
+  de Santa Catarina, 2013a}, v.~16.
+Dispon{\'\i}vel em: \url{www.inf.ufsc.br/~visao/bordas.pdf}.}
 
 \bibitem{Canny:1986}
-CANNY, J.
-\newblock A computational approach to edge detection.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  v. PAMI-8, n. 6, \newblock p. 679--698, Nov 1986.
+\abntrefinfo{Canny}{CANNY}{1986}
+{CANNY, J. A computational approach to edge detection.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, PAMI-8,
+  n.~6, p. 679--698, Nov 1986.
+ISSN 0162-8828.}
 
 \bibitem{Vale:2002}
-DO~VALE, G.~M.; POZ, A. P.~D.
-\newblock O processo de detecção de bordas de canny: Fundamentos, algoritmos
-  e avaliação exeperimental.
-\newblock In: BERGIN, T.~J.; GIBSON, R.~G. (Eds.) {\em Simpósio Brasileiro de
-  Geomática}. 2002. p. 292--303.
+\abntrefinfo{Vale e Poz}{VALE; POZ}{2002}
+{VALE, G.~M. do; POZ, A. P.~D. O processo de detecção de bordas de canny:
+  Fundamentos, algoritmos e avaliação exeperimental. In:  BERGIN, T.~J.;
+  GIBSON, R.~G. (Ed.). \emph{Simpósio Brasileiro de Geomática}. [S.l.: s.n.],
+  2002. p. 292--303.}
 
 \bibitem{Souto:2003}
-SOUTO, R.~P.
-\newblock {\em Segmentação de imagem multiespectral utilizando-se o atributo
-  matiz}.
-\newblock 2003.
-\newblock Disserta\c{c}\~ao de Mestrado - INPE, São José dos Campos, 2003.
+\abntrefinfo{Souto}{SOUTO}{2003}
+{SOUTO, R.~P.
+\emph{Segmentação de imagem multiespectral utilizando-se o atributo matiz}.
+Disserta\c{c}\~{a}o (Dissertação de Mestrado) --- INPE, São José dos
+  Campos, 2003.}
 
 \bibitem{Rocha:2010}
-ROCHA, J.~C.
-\newblock Cor luz, cor pigmento e os sistemas rgb e cmy.
-\newblock {\em Revista Belas, Centro Universitário Belas Artes de Sao Paulo},
-  v. 3, 2010.
+\abntrefinfo{Rocha}{ROCHA}{2010}
+{ROCHA, J.~C. Cor luz, cor pigmento e os sistemas rgb e cmy.
+\emph{Revista Belas, Centro Universitário Belas Artes de Sao Paulo}, v.~3,
+  2010.
+Dispon{\'\i}vel em:
+  \url{http://www.belasartes.br/revistabelasartes/downloads/artigos/3/cor-luz-cor-pigmento-e-os-sistemas-rgb-e-cmy.pdf}.}
 
 \bibitem{Leao:2005}
-LEãO, A.~C.; DE~ALBUQUERQUE~ARAúJO, A.; SOUZA, L. A.~C.
-\newblock Implementação de sistema de gerenciamento de cores para imagens
-  digitais.
-\newblock In: TEIXEIRA, A.~C.; BARRéRE, E.; ABRãO, I.~C. (Eds.) {\em Web e
-  multimídia: desafios e soluções}. PUC Minas, 2005.
+\abntrefinfo{Leão, Araújo e Souza}{LEãO; ARAúJO; SOUZA}{2005}
+{LEãO, A.~C.; ARAúJO, A. de A.; SOUZA, L. A.~C. Implementação de sistema de
+  gerenciamento de cores para imagens digitais. In:  TEIXEIRA, A.~C.; BARRéRE,
+  E.; ABRãO, I.~C. (Ed.). \emph{Web e multimídia: desafios e soluções}.
+  [S.l.]: PUC Minas, 2005.}
 
 \bibitem{Martins:2007}
-MARTINS, D.~L.; MENDES, E.~P.; LINS, F. C.~A.; ARAúJO, M. V.~D.; MEDEIROS, A.
-  A.~D.; ALSINA, P.~J.
-\newblock A versão 2007 da equipe poti de futebol de robôs.
-\newblock In: .
-\newblock c2007.
+\abntrefinfo{Martins et al.}{MARTINS et al.}{2007}
+{MARTINS, D.~L. et al. A versão 2007 da equipe poti de futebol de robôs. In:
+  \emph{Team Description Paper. Competi{\c{c}}ao Brasileira de Rob{\'o}tica,
+  Florianópolis, Brasil}. [S.l.: s.n.], 2007.}
 
 \bibitem{Culjak:2012}
-CULJAK, I.; ABRAM, D.; PRIBANIC, T.; DZAPO, H.; CIFREK, M.
-\newblock A brief introduction to opencv.
-\newblock In: .
-\newblock c2012.
-\newblock p. 1725--1730.
+\abntrefinfo{Culjak et al.}{CULJAK et al.}{2012}
+{CULJAK, I. et al. A brief introduction to opencv. In:  \emph{MIPRO, 2012
+  Proceedings of the 35th International Convention}. [S.l.: s.n.], 2012. p.
+  1725--1730.}
 
 \bibitem{Stroustrup:1996}
-STROUSTRUP, B.
-\newblock A history of c++: 1979--1991.
-\newblock In: BERGIN, T.~J.; GIBSON, R.~G. (Eds.) {\em History of programming
-  languages --- II}. Addison-Wesley, 1996.
+\abntrefinfo{Stroustrup}{STROUSTRUP}{1996}
+{STROUSTRUP, B. A history of c++: 1979--1991. In:  BERGIN, T.~J.; GIBSON, R.~G.
+  (Ed.). \emph{History of programming languages --- II}. [S.l.]:
+  Addison-Wesley, 1996.}
 
 \bibitem{TabelaUFF}
-FLUMINENSE, U.~F.
-\newblock Tabela t: Distribuição de t-student segundo os graus de liberdade e
-  uma dada probabilidade num teste bicaudal.
-\newblock Epidemiologia, curso de Medicina, Acessado 01/04/2016 10:00.
+\abntrefinfo{Fluminense}{FLUMINENSE}{}
+{FLUMINENSE, U.~F. \emph{Tabela T: Distribuição de t-Student segundo os graus
+  de liberdade e uma dada probabilidade num teste bicaudal}.
+Epidemiologia, curso de Medicina, Acessado 01/04/2016 10:00.
+Dispon{\'\i}vel em:
+  \url{http://www.epi.uff.br/wp-content/uploads/2015/05/Tabela-T.pdf}.}
 
 \bibitem{UFRN}
-DO~RIO GRANDE~DO NORTE, U.~F.
-\newblock História da estatística.
-\newblock Acessado 31/03/2016 14:50.
+\abntrefinfo{Norte}{NORTE}{}
+{NORTE, U.~F. do~Rio Grande~do. \emph{História da Estatística}.
+Acessado 31/03/2016 14:50.
+Dispon{\'\i}vel em: \url{http://www.estatistica.ccet.ufrn.br/historia.php}.}
 
 \bibitem{Costa:2000}
-COSTA, A. H.~R.; PEGORARO, R.
-\newblock Construindo rob{\^o}s aut{\^o}nomos para partidas de futebol: o time
-  guaran{\'a}.
-\newblock {\em SBA Controle \& Automa{\c{c}}{\~a}o}, v. 11, n. 03, \newblock p.
-  141--149, 2000.
+\abntrefinfo{Costa e Pegoraro}{COSTA; PEGORARO}{2000}
+{COSTA, A. H.~R.; PEGORARO, R. Construindo rob{\^o}s aut{\^o}nomos para
+  partidas de futebol: o time guaran{\'a}.
+\emph{SBA Controle \& Automa{\c{c}}{\~a}o}, v.~11, n.~03, p. 141--149, 2000.}
 
 \bibitem{Kitano:1997}
-KITANO, H.; ASADA, M.; KUNIYOSHI, Y.; NODA, I.; OSAWA, E.; MATSUBARA, H.
-\newblock Robocup: A challenge problem for ai.
-\newblock {\em AI magazine}, v. 18, n. 1, \newblock p. 73, 1997.
+\abntrefinfo{Kitano et al.}{KITANO et al.}{1997}
+{KITANO, H. et al. Robocup: A challenge problem for ai.
+\emph{AI magazine}, v.~18, n.~1, p.~73, 1997.}
 
 \bibitem{PenharbelTime}
-PENHARBEL, E.~A.; MARTINS, M.~F.; FAZOLIN, A.; GURZONI~JR, J.~A.; EDUARDO, H.;
-  DEBIA, T.; PEREIRA, V.~F.; DESTRO, R.~C.; TONIDANDEL, F.; BIANCHI, R.~A.
-\newblock Time de futebol de rob{\^o}s y04 do centro universit{\'a}rio da fei.
+\abntrefinfo{Penharbel et al.}{PENHARBEL et al.}{}
+{PENHARBEL, E.~A. et al. Time de futebol de rob{\^o}s y04 do centro
+  universit{\'a}rio da fei.}
 
 \bibitem{QCustomPlot}
-EICHHAMMER, E.
-\newblock Qcustomplot.
-\newblock Acessado 28/06/2016 22:09.
+\abntrefinfo{Eichhammer}{EICHHAMMER}{}
+{EICHHAMMER, E. \emph{QCustomPlot}.
+Acessado 28/06/2016 22:09.
+Dispon{\'\i}vel em: \url{http://qcustomplot.com/}.}
 
 \bibitem{OpenCV}
-ITSEEZ.
-\newblock Opencv.
-\newblock Acessado 29/06/2016 16:53.
+\abntrefinfo{itseez}{ITSEEZ}{}
+{ITSEEZ. \emph{OpenCV}.
+Acessado 29/06/2016 16:53.
+Dispon{\'\i}vel em: \url{http://docs.opencv.org/3.1.0/}.}
 
 \end{thebibliography}

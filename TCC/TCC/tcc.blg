@@ -5,22 +5,7 @@ A level-1 auxiliary file: cabecalho.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: fundamentacao.aux
 A level-1 auxiliary file: metodologia.aux
-A level-1 auxiliary file: aplicativo.aux
-A level-1 auxiliary file: resultados.aux
-The style file: abnt.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: abntex2-num.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -29,752 +14,101 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
-Warning--entry type for "abnt-url-package=url" isn't style-file defined
---line 199 of file abntex2-options.bib
 Database file #2: bibliografia.bib.bib
-I was expecting a `,' or a `}'---line 15 of file bibliografia.bib.bib
- :   
- :   Publisher                = {FaCET},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 You're missing a field name---line 36 of file bibliografia.bib.bib
  :    
  :    ,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 169 of file bibliografia.bib.bib
+Warning--entry type for "ImagensHSLHSVRGB" isn't style-file defined
+--line 163 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 165 of file bibliografia.bib.bib
  :  
  :  Title = {Imagens HSV, HSL e RGB},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 175 of file bibliografia.bib.bib
- :  @inproceedings {ImagensHSLHSVRGB
- :                                  ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 203 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 190 of file bibliografia.bib.bib
  :   
  :   year={2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "UFRN" isn't style-file defined
---line 217 of file bibliografia.bib.bib
+--line 203 of file bibliografia.bib.bib
 Warning--entry type for "TabelaUFF" isn't style-file defined
---line 235 of file bibliografia.bib.bib
-You're missing a field name---line 281 of file bibliografia.bib.bib
+--line 221 of file bibliografia.bib.bib
+You're missing a field name---line 267 of file bibliografia.bib.bib
  :     
  :     ,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 289 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 275 of file bibliografia.bib.bib
  :    
  :    Title = {Imagens HSV, HSL e RGB},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "QCustomPlot" isn't style-file defined
---line 296 of file bibliografia.bib.bib
+--line 282 of file bibliografia.bib.bib
 Warning--entry type for "OpenCV" isn't style-file defined
---line 307 of file bibliografia.bib.bib
-Warning--all relevant fields are empty in abnt-url-package=url
-Warning--empty title in ImagensHSLHSVRGB
-Warning--empty conference in ImagensHSLHSVRGB
-Warning--there is no cnumber in ImagensHSLHSVRGB
-Warning--empty cyear in ImagensHSLHSVRGB
-Warning--empty caddress in ImagensHSLHSVRGB
-Warning--there is no ctitle in ImagensHSLHSVRGB
-Warning--there is no editor in ImagensHSLHSVRGB
-Warning--there is no address in ImagensHSLHSVRGB
-Warning--there is no publisher in ImagensHSLHSVRGB
-Warning--empty address and publisher in ImagensHSLHSVRGB
-Warning--there is no year in ImagensHSLHSVRGB
-Warning--empty conference in Mendes:2008
-Warning--there is no cnumber in Mendes:2008
-Warning--empty cyear in Mendes:2008
-Warning--empty caddress in Mendes:2008
-Warning--there is no ctitle in Mendes:2008
-Warning--there is no editor in Mendes:2008
-Warning--there is no publisher in Mendes:2008
-Warning--can't use both author and editor fields in Spiegel:1974
-Warning--there is no address in Spiegel:1974
-Warning--empty address in Penharbel:2004
-Warning--empty year in Rosa:2015
-Warning--empty pages in Rosa:2015
-Warning--empty address in Rosa:2015
-Warning--empty year in Rosa:2015
-Warning--empty title in VSSVision
-Warning--empty conference in VSSVision
-Warning--there is no cnumber in VSSVision
-Warning--empty cyear in VSSVision
-Warning--empty caddress in VSSVision
-Warning--there is no ctitle in VSSVision
-Warning--there is no editor in VSSVision
-Warning--there is no address in VSSVision
-Warning--there is no publisher in VSSVision
-Warning--empty address and publisher in VSSVision
-Warning--there is no year in VSSVision
-Warning--there is no address in Gonzalez:2008
-Warning--empty conference in Viola:2001
-Warning--there is no cnumber in Viola:2001
-Warning--empty cyear in Viola:2001
-Warning--empty caddress in Viola:2001
-Warning--there is no ctitle in Viola:2001
-Warning--there is no editor in Viola:2001
-Warning--there is no address in Viola:2001
-Warning--there is no publisher in Viola:2001
-Warning--empty address and publisher in Viola:2001
-Warning--empty year in Nascimento:2007
-Warning--empty pages in Nascimento:2007
-Warning--empty address in Nascimento:2007
-Warning--empty year in Nascimento:2007
-Warning--empty address in Roth:2008
-Warning--empty conference in Ulusoy:2005
-Warning--there is no cnumber in Ulusoy:2005
-Warning--empty cyear in Ulusoy:2005
-Warning--empty caddress in Ulusoy:2005
-Warning--there is no ctitle in Ulusoy:2005
-Warning--there is no editor in Ulusoy:2005
-Warning--empty address in Wangenheim:2014
-Warning--empty month and year in Wangenheim:2014
-Warning--empty address in Canny:1986
-`address' is a missing field, not a string, for entry Vale:2002
-while executing---line 3901 of file abnt.bst
-`publisher' is a missing field, not a string, for entry Vale:2002
-while executing---line 3901 of file abnt.bst
-Warning--empty pages in Souto:2003
-Warning--empty address in Rocha:2010
-`address' is a missing field, not a string, for entry Leao:2005
-while executing---line 3901 of file abnt.bst
-Warning--empty conference in Martins:2007
-Warning--there is no cnumber in Martins:2007
-Warning--empty cyear in Martins:2007
-Warning--empty caddress in Martins:2007
-Warning--there is no ctitle in Martins:2007
-Warning--there is no editor in Martins:2007
-Warning--there is no address in Martins:2007
-Warning--there is no publisher in Martins:2007
-Warning--empty address and publisher in Martins:2007
-Warning--empty conference in Culjak:2012
-Warning--there is no cnumber in Culjak:2012
-Warning--empty cyear in Culjak:2012
-Warning--empty caddress in Culjak:2012
-Warning--there is no ctitle in Culjak:2012
-Warning--there is no editor in Culjak:2012
-Warning--there is no address in Culjak:2012
-Warning--there is no publisher in Culjak:2012
-Warning--empty address and publisher in Culjak:2012
-`address' is a missing field, not a string, for entry Stroustrup:1996
-while executing---line 3901 of file abnt.bst
-Warning--empty address in Costa:2000
-Warning--empty address in Kitano:1997
-Warning--empty journal in PenharbelTime
-"Acta Crystallographica A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Acta Microscopica" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Acta Physica Polonica A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Acta Psychologica" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Advances in Chromatography" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Advances in Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Advances in Space Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Advances in Theoretical and Mathematical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"American Biology Teacher" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"American Journal of Clinical Nutrition" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"American Journal of Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"American Psychologist" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Annals of Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Applied Optics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Applied Physics A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Applied Physics B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Applied Physics Letters" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Ark Mat. Astron. Fys." is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Artificial Intelligence" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astronomical Journal" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astronomy and Astrophysics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astronomy and Astrophysics Supplement Series" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astrophysical and Space Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astrophysical Journal" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Astrophysical Journal Supplement Series" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Baltic Astronomy" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Behavioral Neuroscience" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Biochimica et Biophysica Acta" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Biopolymers" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Boletim da Sociedade Astronomica Brasileira" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Boletim da Sociedade Brasileira de Matemática" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Boletin de la Academia Nacional de Ciencias" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Brazilian Journal of Medical and Biological Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Brazilian Journal of Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"British Journal of Educational Psychology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Bulletin of Chemical Society of Japan" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Caderno Catarinense de Ensino de Física" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Chaos Solitons Fractals" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Chemical Physics Letters" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Ciência Hoje" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Cognition" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Cognition and Instruction" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Cognitive Psychology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Developmental Psychology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Diamond and Related Materials" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Educational and Psychological Measurement" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Educational Psychologist" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Educational Psychology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Electrophoresis" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Engineering Education" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Ensaio: pesquisa em educação em ciências" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Enseñanza de las Ciencias" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Epistéme	Epistéme" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"European Journal of Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"European Journal of Science Education" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Europhysics Letters" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Fluid Phase Equilibria" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Forensic Science International" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Fullerene Science and Technology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Helvetica Physica Acta" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"High Pressure Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Hyperfine Interactions" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"IEEE Transactions on Electron Devices" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"IEEE Transactions on Magnetics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Instructional Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"International Journal of Bifurcation Chaos" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"International Journal of Modern Physics A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"International Journal of Neural Systems" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"International Journal of Science Education" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Investigación en la Escuela" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Investigações em Ensino de Ciências" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal de Physique I" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Alloys and Compounds" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of American Ceramical Society" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Applied Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Applied Polymer Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Chemical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Chromatographic Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Chromatography" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Chromatography A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Colloid and Interface Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Forensic Sciences" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Geophysical Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Magnetism and Magnetic Materials" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Materials Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Mathematical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Non-Crystalline Solids" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Nonlinear Optical Physics and Materials" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Optics B: Quantum and Semiclassical Optics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physical Chemistry" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics and Chemistry of Solids" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics D" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics G" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Physics: Condensed Matter" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Plasma Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Polymer Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Research in Science Teaching" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Research of the National Institute of Standards and Technology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Sol-Gel Science Technology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Solid State Chemistry" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Solid-State Device Circuits" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Statistical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of Synchrotron Radiation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the American Chemical Society" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the Chemical Society" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the Electrochemical Society" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the Optical Society of America A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the Optical Society of America B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Journal of the Vacuum Science and Technology A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Langmuir" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Learning Instruction" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Linear Chain Physical Review" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Linguistic Inquiry" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Macromolecules" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Materials Science and Engineering A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Materials Science and Engineering R: Reports" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Messenger" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Modelling and Simulation in Materials Science and Engineering" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Modern Physics Letters A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Molecular Membrane Biology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Monthly Notices of the Royal Astronomical Society" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nature" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Neural Computation" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nuclear Instruments and Methods in Physics Research B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nuclear Physics A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nuclear Physics B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nuclear Physics B: Proceedings Supplement" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Nuovo Cimento D" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Optics Communications" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Philosophical Magazine A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica C" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica D" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica E" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica Scripta" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica Status Solidi A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physica Status Solidi B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physical Review" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physical Review A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physical Review Letters" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physics Letters A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physics Letters B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Physics of Plasmas" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Plasma Physics and Controlled Fusion" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Polymer" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Proceedings of SPIE" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Proceedings of the National Academy of Sciences of the United States of America" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Progress of Theoretical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Psychological Bulletin" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Psychological Review" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Psychological Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Publications of the Astronomical Society of the Pacific" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Pure and Applied Chemistry" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Quarterly Review of Biology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Química Nova" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Radiation Effects and Defects Solids" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Review of Educational Research" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Review of Scientific Instruments" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Reviews of Modern Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista Brasileira de Aplicações em Vácuo" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista Brasileira de Ensino de Física" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista de Administração Pública" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista de Enseñanza de la Física" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista de Ensino de Física" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista Mexicana de Astronomía y Astrofísica" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Revista Perfil" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Russian Mathematical Surveys" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"School Science and Mathematics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Science" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Science Education" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Scripta Materials" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Sensors and Actuators B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Solid State Communications" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Solid State Ionics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Soviet Journal of Nuclear Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Studies in Science Education" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Surface and Coatings Technology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Surveys High Energy Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"The European Physical Journal A" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"The European Physical Journal B" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"The European Physical Journal C" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"The Journal of Gemmology" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"The Physics Teacher" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Theoretical Mathematical Physics" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Thin Solid Films" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-"Vacuum" is a string literal, `journal' is a missing field
----they aren't the same literal types for entry PenharbelTime
-while executing---line 3901 of file abnt.bst
-Warning--empty address in PenharbelTime
-Warning--empty month and year in PenharbelTime
+--line 293 of file bibliografia.bib.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em ImagensHSLHSVRGB
+Warning--campo year vazio em Rosa:2015
+Warning--campo title vazio em VSSVision
+Warning--campo year vazio ou faltando em VSSVision
+Warning--campo year vazio em Nascimento:2007
+Warning--campo year vazio ou faltando em TabelaUFF
+Warning--campo year vazio ou faltando em UFRN
+Warning--campo year vazio ou faltando em QCustomPlot
+Warning--campo year vazio ou faltando em OpenCV
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-num.bst versão v-1.9.2           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
 You've used 30 entries,
-            4793 wiz_defined-function locations,
-            1355 strings with 16567 characters,
-and the built_in function-call counts, 11638 in all, are:
-= -- 2092
-> -- 256
-< -- 8
-+ -- 104
-- -- 74
-* -- 488
-:= -- 1129
-add.period$ -- 103
+            6706 wiz_defined-function locations,
+            1400 strings with 15050 characters,
+and the built_in function-call counts, 28671 in all, are:
+= -- 2875
+> -- 652
+< -- 429
++ -- 695
+- -- 198
+* -- 1853
+:= -- 3643
+add.period$ -- 116
 call.type$ -- 30
-change.case$ -- 101
-chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 368
-empty$ -- 755
-format.name$ -- 74
-if$ -- 3059
+change.case$ -- 288
+chr.to.int$ -- 54
+cite$ -- 38
+duplicate$ -- 2247
+empty$ -- 1689
+format.name$ -- 1044
+if$ -- 6265
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 0
-newline$ -- 159
-num.names$ -- 37
-pop$ -- 197
+int.to.str$ -- 0
+missing$ -- 510
+newline$ -- 153
+num.names$ -- 120
+pop$ -- 721
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 111
 quote$ -- 0
-skip$ -- 1655
-stack$ -- 0
-substring$ -- 226
-swap$ -- 80
-text.length$ -- 8
+skip$ -- 2367
+stack$ -- 1
+substring$ -- 1077
+swap$ -- 870
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 86
-while$ -- 53
-width$ -- 32
-write$ -- 317
-(There were 200 error messages)
+type$ -- 20
+warning$ -- 9
+while$ -- 170
+width$ -- 0
+write$ -- 397
+(There were 5 error messages)

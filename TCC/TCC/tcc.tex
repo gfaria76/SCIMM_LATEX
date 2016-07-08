@@ -14,6 +14,19 @@
 
 \documentclass[a4paper,12pt,brazil]{dct-class}
 \usepackage[brazil]{babel}
+
+\usepackage{algorithm, algpseudocode}
+\renewcommand{\listalgorithmname}{Lista de Algoritmos}
+\floatname{algorithm}{Algoritmo}
+\algrenewcommand\algorithmicwhile{{\bf enquanto}}
+\algrenewcommand\algorithmicdo{{\bf faça}}
+\algrenewcommand\algorithmicif{{\bf se}}
+\algrenewcommand\algorithmicelse{{\bf senão}}
+\algrenewcommand\algorithmicend{{\bf fim}}
+\algrenewcommand\algorithmicthen{{\bf então}}
+\algrenewcommand\algorithmicfor{{\bf para}}
+\algrenewcommand\algorithmicforall{{\bf para todo}}
+
 \usepackage[utf8]{inputenc}
 \usepackage[top=25mm,bottom=25mm,left=25mm,right=20mm]{geometry}
 \usepackage{caption}
@@ -98,11 +111,11 @@
 \addcontentsline{toc}{chapter}{Referências Bibliográficas}
 %\bibliographystyle{abnt}
 %\bibliographystyle{abnt-num} % Numérico
-%\bibliographystyle{abnt-alf} % Autor-Data
+\bibliographystyle{abntex2-num} % Autor-Data
 %\bibliographystyle{abbrv}
 %\bibliographystyle{apalike} 
 %\bibliographystyle{ieeetr} % Ordena por ordem de aparição.  
-\bibliographystyle{abbr} % Ordena por ordem alfabetica com nomes abreviados.
+%\bibliographystyle{abbr} % Ordena por ordem alfabetica com nomes abreviados.
 %\bibliographystyle{plain} % Ordena por ordem alfabetica com nomes por extenso.
 \bibliography{bibliografia.bib} % commented if *.bbl file included.
 

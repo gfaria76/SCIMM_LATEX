@@ -214,7 +214,8 @@ O Centro Universitário da FEI, como visto em\cite{PenharbelTime}, utiliza em su
 
 \newpage
 \subsection{VSS-Vision}
-Desenvolvido inicialmente em Janeiro de 2016 pelo Laboratório de Sistemas Inteligentes de Robótica (SIRLab), utilizando para procesamento de imagens a biblioteca OpenCV e para telas interativas a biblioteca  ImGui.
+
+Em 2015 Rosa\cite{Rosa:2015} descreve em seu Trabalho de Conclusão sobre a equipe de futebol de rob\^os Very Small Size, do Laboratório de Sistemas Inteligentes e Robótica, SIRLab(Faeterj-Petrópolis), o sistema de visão computacional da equipe, durante a competição do ano de 2014, que abrange inclusive a parte de calibração. 
 
 \begin{figure}[!h]
 	\centering
@@ -222,15 +223,33 @@ Desenvolvido inicialmente em Janeiro de 2016 pelo Laboratório de Sistemas Intel
 	\caption{Sistema de calibracao desenvolvido peloSIRLab \cite{Rosa:2015}}
 	\label{SIRLabCalibracao}
 \end{figure}
-
-A rotina de calibração do VSS-Vision calibra laranja, amarelo e azul obrigatoriamente e as outra cores referentes aos jogadores em campo\cite{Rosa:2015} de acordo com a escolha do time. A imagem é divida em nove cantos, como visto na imagem 2.7, e para calibrar a cor o usuario deve clicar em cima da cor que gostaria de ser calibrada salvando um intervalo de cor tratado como RGB máximo daquela cor e o mínimo, a medida
+O autor menciona que a calibração de cores e feita calibrando obrigatoriamente laranja, amarelo e azul, e então as outas cores referentes aos jogadores em campo. Como visto na Figura \ref{SIRLabCalibracao} a imagem da camera é dividida em nove cantos, e para calibrar a cor o usuario deve clicar em cima da cor que gostaria de ser calibrada salvando um intervalo de cor tratado como RGB máximo daquela cor e o mínimo, a medida
 que vão havendo os cliques o sistema verifica para cada atributo se ele é maior que o atributo
 máximo salvo ou menor que mínimo salvo, caso seja, o mesmo assume o lugar de menor ou
-maior\cite{Rosa:2015} e esse processo deve ser feito em cada um dos nove cantos da imagem. Os valores HSV encontrados sao ajustados manualmente com a ajuda de sliders, como visto na imagem 2.8.
+maior\cite{Rosa:2015} e esse processo deve ser feito em cada um dos nove cantos da imagem. Os valores HSV encontrados sao ajustados manualmente com a ajuda de sliders, como visto na Figura \ref{SIRLabCalibracaoHSV}. Este processo de calibração pode demorar entre cinco e dez minutos.
+O desenvolvimento do sistema utiliza para procesamento de imagens a biblioteca OpenCV e para telas interativas a biblioteca  ImGui.
+
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{calibration.pdf} 	
 	\caption{Sistema de calibracao desenvolvido peloSIRLab \cite{VSSVision}}
 	\label{SIRLabCalibracaoHSV}
 \end{figure}
-Por conta de ser feita manualmente, a calibraÇão dura de 5 á 10 minutos
+
+O atual sistema de visão computacional do SIRLab passou por algumas mudanças desde 2015 e conta com uma inteface e metodo de calibração diferentes\cite{VSSVision}. 
+Como disponivel no repositorio online do Laboratorio, o atual sistema de calibração de cores utiliza o espaço de cores HSV, no lugar do RGB\cite{Rosa:2015}. A antiga inteface do sistema, feita inicialmente em ImGui deu lugar à nova, desenvolvida em Qt, como mostrado na Figura \ref{SIRLabNova}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{vsssnovonormal.png} 	
+	\caption{Nova interface do time da SIRLab \cite{VSSVision}}
+	\label{SIRLabNova}
+\end{figure}
+
+O metodo de calibração de cores tambem foi modificado, segundo a equipe\cite{VSSVision} o sistema possibilita a calibragem de 8 cores, Laranja, Amarelo, Azul, Vermelho, Verde, Rosa, Roxo, Marrom. Após o usuário escolher uma cor para calibrar o mesmo deve encontrar um intervalo de cor, no espaço de cores HSV, que represente-a. Ao clicar na tela com o botão direito o sistema da um zoom na área para ajuste fino. A figura \ref{SIRLabNovaCalibracao} demonstra o novo metodo de calibração.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{vsssnovo.png} 	
+	\caption{Calibração atual do time da SIRLab \cite{VSSVision}}
+	\label{SIRLabNovaCalibracao}
+\end{figure}
