@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.7)  4 JUL 2016 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.26)  6 JUL 2016 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tcc.tex
 (./tcc.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./dct-class.cls (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./dct-class.cls (/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,19 +24,19 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -186,7 +186,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -217,7 +217,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -241,21 +241,21 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 )
 
@@ -263,26 +263,26 @@ Package babel Warning: Last declared language option is `brazil,
 (babel)                but the last processed one was `portuguese'.
 (babel)                The main language cannot be set as both a global
 (babel)                and a package option. Use `main=brazil' as
-(babel)                option. Reported on input line 311.
+(babel)                option. Reported on input line 312.
 
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -323,17 +323,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks21
@@ -341,7 +341,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -352,31 +352,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
@@ -384,14 +384,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -432,27 +432,27 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count105
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `plainpages' set `true' on input line 4319.
@@ -465,7 +465,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count106
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -490,12 +490,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver: hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -506,7 +506,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 \c@theorem=\count113
 \c@definition=\count114
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count115
 \lst@gtempboxa=\box30
 \lst@token=\toks24
@@ -520,35 +520,35 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 27.
 \lst@lineno=\count120
 \lst@maxwidth=\dimen122
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count121
 \lst@skipnumbers=\count122
 \lst@framebox=\box31
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count123
 \Gm@cntv=\count124
@@ -563,10 +563,10 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen130
 \Gm@dimlist=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen131
@@ -582,18 +582,18 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count127
 \c@subtable=\count128
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count129
 \calc@Bcount=\count130
@@ -601,15 +601,15 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen139
 \calc@Askip=\skip56
 \calc@Bskip=\skip57
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count131
 \calc@Cskip=\skip58
 )
-(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box32
@@ -617,11 +617,11 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count132
 \AM@templatesizebox=\box33
 )
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
 
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 \minimumbiblabelwidth=\skip59
@@ -629,7 +629,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \c@ABCIaux=\count133
 \c@ABCImax=\count134
 
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip61
@@ -637,8 +637,8 @@ LaTeX Info: Redefining \newblock on input line 675.
 LaTeX Info: Redefining \cite on input line 946.
 \ABCItoken=\toks27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \c@tracingmulticols=\count135
 \mult@box=\box34
 \multicol@leftmargin=\dimen140
@@ -655,6 +655,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolbaselineskip=\skip63
 \partial@page=\box35
 \last@line=\box36
+\maxbalancingoverflow=\dimen145
 \mult@rightbox=\box37
 \mult@grightbox=\box38
 \mult@gfirstbox=\box39
@@ -678,40 +679,40 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box57
 \c@columnbadness=\count141
 \c@finalcolumnbadness=\count142
-\last@try=\dimen145
-\multicolovershoot=\dimen146
-\multicolundershoot=\dimen147
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
 \mult@nat@firstbox=\box58
 \colbreak@box=\box59
-\multicol@sort@counter=\count143
+\mc@col@check@num=\count143
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen148
-\lightrulewidth=\dimen149
-\cmidrulewidth=\dimen150
-\belowrulesep=\dimen151
-\belowbottomsep=\dimen152
-\aboverulesep=\dimen153
-\abovetopsep=\dimen154
-\cmidrulesep=\dimen155
-\cmidrulekern=\dimen156
-\defaultaddspace=\dimen157
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
 \@cmidla=\count144
 \@cmidlb=\count145
-\@aboverulesep=\dimen158
-\@belowrulesep=\dimen159
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
 \@thisruleclass=\count146
 \@lastruleclass=\count147
-\@thisrulewidth=\dimen160
+\@thisrulewidth=\dimen161
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen161
-\extrarowheight=\dimen162
+\col@sep=\dimen162
+\extrarowheight=\dimen163
 \NC@list=\toks28
 \extratabsurround=\skip64
 \backup@length=\skip65
@@ -737,40 +738,40 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
-\scratchdimen=\dimen163
+\scratchdimen=\dimen164
 \scratchbox=\box60
 \nofMPsegments=\count149
 \nofMParguments=\count150
 \everyMPshowfont=\toks29
 \MPscratchCnt=\count151
-\MPscratchDim=\dimen164
+\MPscratchDim=\dimen165
 \MPnumerator=\count152
 \makeMPintoPDFobject=\count153
 \everyMPtoPDFconversion=\toks30
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.jpeg,.png,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring ON on input line 40.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count154
@@ -829,10 +830,9 @@ Package babel Info: Redefining portuges shorthand "|
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -840,17 +840,17 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 43.
- [2
+
+[2
 
 ] (./tcc.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining portuges shorthand "|
@@ -867,13 +867,14 @@ Package babel Info: Redefining portuges shorthand "|
  [4]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 54.
- (./tcc.lof)
+
+(./tcc.lof)
 \tf@lof=\write5
 \openout5 = `tcc.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 89.
-[5
+ [5
 
 
 ]
@@ -979,12 +980,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 124.
  [13 <./figuras/hsv.pdf> <./figuras/HSL.pdf
 
-pdfTeX warning: pdflatex (file ./figuras/HSL.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
+pdfTeX warning: /usr/local/texlive/2014/bin/x86_64-darwin/pdflatex (file ./figu
+ras/HSL.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
 > <./figuras/hpg.pdf
 
-pdfTeX warning: pdflatex (file ./figuras/hpg.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
+pdfTeX warning: /usr/local/texlive/2014/bin/x86_64-darwin/pdflatex (file ./figu
+ras/hpg.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 125.
@@ -1051,8 +1054,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 90.
  [18 <./figuras/vssvision.pdf> <./figuras/calibration.pdf
 
-pdfTeX warning: pdflatex (file ./figuras/calibration.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: /usr/local/texlive/2014/bin/x86_64-darwin/pdflatex (file ./figu
+ras/calibration.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
 >]
 \openout2 = `metodologia.aux'.
 
@@ -1075,31 +1079,35 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <figuras/organizacaoProjeto.pdf, id=471, 280.04625pt x 416.55624pt>
+] <figuras/organizacaoProjeto.pdf, id=471, 234.8775pt x 312.16624pt>
 File: figuras/organizacaoProjeto.pdf Graphic file (type pdf)
 
 <use figuras/organizacaoProjeto.pdf>
 Package pdftex.def Info: figuras/organizacaoProjeto.pdf used on input line 61.
-(pdftex.def)             Requested size: 93.89265pt x 139.6632pt.
+(pdftex.def)             Requested size: 93.89265pt x 124.78807pt.
 
-<figuras/diagramadeclasse.pdf, id=473, 769.27818pt x 596.153pt>
+<figuras/diagramadeclasse.pdf, id=473, 831.0011pt x 934.8763pt>
 File: figuras/diagramadeclasse.pdf Graphic file (type pdf)
 
 <use figuras/diagramadeclasse.pdf>
 Package pdftex.def Info: figuras/diagramadeclasse.pdf used on input line 71.
-(pdftex.def)             Requested size: 375.57782pt x 291.06232pt.
+(pdftex.def)             Requested size: 375.57782pt x 422.53064pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
- [20 <./figuras/organizacaoProjeto.pdf> <./figuras/diagramadeclasse.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/diagramadeclasse.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
+[20 <./figuras/organizacaoProjeto.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 77.
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 95.
+ [21 <./figuras/diagramadeclasse.pdf>]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 99.
- <figuras/fluxoprincipal.pdf, id=492, 376.35919pt x 432.06036pt>
+
+<figuras/fluxoprincipal.pdf, id=497, 376.35919pt x 432.06036pt>
 File: figuras/fluxoprincipal.pdf Graphic file (type pdf)
 
 <use figuras/fluxoprincipal.pdf>
@@ -1108,7 +1116,7 @@ Package pdftex.def Info: figuras/fluxoprincipal.pdf used on input line 103.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
 
-<figuras/fluxoautomatico.pdf, id=493, 257.2812pt x 595.50484pt>
+<figuras/fluxoautomatico.pdf, id=498, 257.2812pt x 595.50484pt>
 File: figuras/fluxoautomatico.pdf Graphic file (type pdf)
 
 <use figuras/fluxoautomatico.pdf>
@@ -1116,33 +1124,30 @@ Package pdftex.def Info: figuras/fluxoautomatico.pdf used on input line 115.
 (pdftex.def)             Requested size: 211.26028pt x 489.00772pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 119.
- [21 <./figuras/fluxoprincipal.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [22 <./figuras/fluxoprincipal.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 140.
-[22]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 126.
  [23 <./figuras/fluxoautomatico.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 140.
  [24]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 161.
+ [25]
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 187.
- [25]
-<figuras/graficototal.png, id=556, 620.3175pt x 288.3272pt>
+ [26]
+<figuras/graficototal.png, id=561, 620.3175pt x 288.3272pt>
 File: figuras/graficototal.png Graphic file (type png)
 
 <use figuras/graficototal.png>
 Package pdftex.def Info: figuras/graficototal.png used on input line 190.
 (pdftex.def)             Requested size: 234.73524pt x 109.10352pt.
 
-<figuras/graficominmax.png, id=557, 627.84563pt x 287.57437pt>
+<figuras/graficominmax.png, id=562, 627.84563pt x 287.57437pt>
 File: figuras/graficominmax.png Graphic file (type png)
 
 <use figuras/graficominmax.png>
@@ -1150,12 +1155,12 @@ Package pdftex.def Info: figuras/graficominmax.png used on input line 198.
 (pdftex.def)             Requested size: 234.73524pt x 107.51541pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 210.
- [26 <./figuras/graficototal.png (PNG copy)> <./figuras/graficominmax.png (PNG 
+ [27 <./figuras/graficototal.png (PNG copy)> <./figuras/graficominmax.png (PNG 
 copy)>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 212.
 
-<figuras/fluxomanual.pdf, id=563, 446.62859pt x 725.5908pt>
+<figuras/fluxomanual.pdf, id=569, 446.62859pt x 725.5908pt>
 File: figuras/fluxomanual.pdf Graphic file (type pdf)
 
 <use figuras/fluxomanual.pdf>
@@ -1163,33 +1168,36 @@ Package pdftex.def Info: figuras/fluxomanual.pdf used on input line 217.
 (pdftex.def)             Requested size: 211.26028pt x 343.20883pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 224.
- [27 <./figuras/fluxomanual.pdf>])
+ [28 <./figuras/fluxomanual.pdf>])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 91.
- [28]
+ [29]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 98.
  (./tcc.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 89.
-[29
+(babel)             in language  on input line 92.
+[30
 
 
 
-])
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 195.
+ [31])
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 114.
- [30]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- (./tcc.aux (./cabecalho.aux) (./introducao.aux) (./fundamentacao.aux) (./metod
-ologia.aux))
+ (./tcc.aux (./cabecalho.aux) (./introducao.aux)
+(./fundamentacao.aux) (./metodologia.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `tcc.out' has not changed.
-(rerunfilecheck)             Checksum: 93267B7D6626265BC962D9B896C6747E;2131.
+(rerunfilecheck)             Checksum: 9F0A39053B3A9CCC4FB6769A864E1ADF;2131.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1197,31 +1205,32 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 11743 strings out of 493304
- 169168 string characters out of 6139872
- 306672 words of memory out of 5000000
- 14801 multiletter control sequences out of 15000+600000
+ 11893 strings out of 493117
+ 172786 string characters out of 6135432
+ 312012 words of memory out of 5000000
+ 14955 multiletter control sequences out of 15000+600000
  12226 words of font info for 45 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  40i,12n,60p,1736b,1546s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on tcc.pdf (30 pages, 4127527 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on tcc.pdf (32 pages, 4149841 bytes).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
- 603 compressed objects within 7 object streams
+ 733 PDF objects out of 1000 (max. 8388607)
+ 623 compressed objects within 7 object streams
  164 named destinations out of 1000 (max. 500000)
  329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
