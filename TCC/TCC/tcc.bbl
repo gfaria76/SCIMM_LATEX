@@ -7,7 +7,11 @@
 
 \bibitem{ImagensHSLHSVRGB}
 \abntrefinfo{Horvath}{HORVATH}{}
+<<<<<<< HEAD
 {HORVATH, M. In:  . [S.l.: s.n.].}
+=======
+{HORVATH, M.}
+>>>>>>> CoderSquirrel/master
 
 \bibitem{Mendes:2008}
 \abntrefinfo{Mendes e Medeiros}{MENDES; MEDEIROS}{2008}
@@ -42,7 +46,12 @@ Disserta\c{c}\~{a}o (Mestrado) --- FACULDADE DEE DUCAÇÃO TECNOLÓGICA DO
 \abntrefinfo{Albuquerque e Albuquerque}{ALBUQUERQUE; ALBUQUERQUE}{2001}
 {ALBUQUERQUE, M.; ALBUQUERQUE, M. Processamento de imagens: métodos e
   análises.
+<<<<<<< HEAD
 \emph{Revista de Ciência e Tecnologia}, Rio de Janeiro, p. 10--22, 2001.
+=======
+\emph{Revista de Ciência e Tecnologia}, FaCET, Rio de Janeiro, v.~1, n.~1, p.
+  10--22, 2001.
+>>>>>>> CoderSquirrel/master
 ISSN 1519-8022.
 Centro Brasileiro de Pesquisas Fısicas MCT.}
 

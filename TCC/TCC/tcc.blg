@@ -17,53 +17,53 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib.bib
-I was expecting a `,' or a `}'---line 15 of file bibliografia.bib.bib
- :   
- :   Publisher                = {FaCET},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 You're missing a field name---line 36 of file bibliografia.bib.bib
  :    
  :    ,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 169 of file bibliografia.bib.bib
+Warning--entry type for "ImagensHSLHSVRGB" isn't style-file defined
+--line 163 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 165 of file bibliografia.bib.bib
  :  
  :  Title = {Imagens HSV, HSL e RGB},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 175 of file bibliografia.bib.bib
- :  @inproceedings {ImagensHSLHSVRGB
- :                                  ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 203 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 190 of file bibliografia.bib.bib
  :   
  :   year={2014}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "UFRN" isn't style-file defined
---line 217 of file bibliografia.bib.bib
+--line 203 of file bibliografia.bib.bib
 Warning--entry type for "TabelaUFF" isn't style-file defined
---line 235 of file bibliografia.bib.bib
-You're missing a field name---line 281 of file bibliografia.bib.bib
+--line 221 of file bibliografia.bib.bib
+You're missing a field name---line 267 of file bibliografia.bib.bib
  :     
  :     ,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 289 of file bibliografia.bib.bib
+I was expecting a `,' or a `}'---line 275 of file bibliografia.bib.bib
  :    
  :    Title = {Imagens HSV, HSL e RGB},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "QCustomPlot" isn't style-file defined
---line 296 of file bibliografia.bib.bib
+--line 282 of file bibliografia.bib.bib
 Warning--entry type for "OpenCV" isn't style-file defined
+<<<<<<< HEAD
 --line 307 of file bibliografia.bib.bib
+=======
+--line 293 of file bibliografia.bib.bib
+>>>>>>> CoderSquirrel/master
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+<<<<<<< HEAD
 Warning--campo title vazio em ImagensHSLHSVRGB
+=======
+>>>>>>> CoderSquirrel/master
 Warning--campo year vazio ou faltando em ImagensHSLHSVRGB
 Warning--campo year vazio em Rosa:2015
 Warning--campo title vazio em VSSVision
@@ -80,6 +80,7 @@ Warning--campo year vazio ou faltando em OpenCV
 +---------------------------------------------------------+
 You've used 30 entries,
             6706 wiz_defined-function locations,
+<<<<<<< HEAD
             1399 strings with 15045 characters,
 and the built_in function-call counts, 28661 in all, are:
 = -- 2879
@@ -120,3 +121,45 @@ while$ -- 170
 width$ -- 0
 write$ -- 396
 (There were 7 error messages)
+=======
+            1400 strings with 15050 characters,
+and the built_in function-call counts, 28671 in all, are:
+= -- 2875
+> -- 652
+< -- 429
++ -- 695
+- -- 198
+* -- 1853
+:= -- 3643
+add.period$ -- 116
+call.type$ -- 30
+change.case$ -- 288
+chr.to.int$ -- 54
+cite$ -- 38
+duplicate$ -- 2247
+empty$ -- 1689
+format.name$ -- 1044
+if$ -- 6265
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 510
+newline$ -- 153
+num.names$ -- 120
+pop$ -- 721
+preamble$ -- 1
+purify$ -- 111
+quote$ -- 0
+skip$ -- 2367
+stack$ -- 1
+substring$ -- 1077
+swap$ -- 870
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 9
+while$ -- 170
+width$ -- 0
+write$ -- 397
+(There were 5 error messages)
+>>>>>>> CoderSquirrel/master
